@@ -18,7 +18,7 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyrhino'
 
-  gem 'uglifier', '>= 1.3.0' #'>= 1.0.3'
+  gem 'uglifier', '>= 2.1.1' #'>= 1.0.3'
 end
 
 gem 'jquery-rails'
@@ -29,6 +29,11 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.0.1'
+
+group :test do
+  gem 'selenium-webdriver', '2.35.1'
+  gem 'capybara', '2.1.0'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

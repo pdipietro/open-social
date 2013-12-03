@@ -1,3 +1,9 @@
+# Ruby on Rails: meta-socialNetwork application
+
+This is the meta-social network application for
+the [*Ruby on Rails Tutorial*](http://railstutorial.org/)
+by [Annalisa Barone](http://annalisabarone.eu/) & [Paolo Di Pietro](http://paolodipietro58@gmail.com).
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create

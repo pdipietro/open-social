@@ -852,3 +852,746 @@ State machines:
 Current timeouts:
 
 2013-11-29 15:29:30.616+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
+2013-12-03 08:51:10.989+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2013-12-03 08:51:10.995+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2013-12-03 08:51:10.998+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=1623M
+2013-12-03 08:51:10.998+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=450M
+2013-12-03 08:51:10.998+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.pull_interval=500ms
+2013-12-03 08:51:10.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: identity_map=true
+2013-12-03 08:51:10.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: timestamps=true
+2013-12-03 08:51:10.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.discovery.enabled=true
+2013-12-03 08:51:10.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=1988M
+2013-12-03 08:51:10.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=1379M
+2013-12-03 08:51:10.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=/home/pdipietro/myapp/db/ha_neo_1
+2013-12-03 08:51:10.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: online_backup_enabled=false
+2013-12-03 08:51:10.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=1563M
+2013-12-03 08:51:10.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.initial_hosts=192.168.10.81:5001,192.168.10.81:5002,192.168.10.81:5003
+2013-12-03 08:51:10.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.cluster_server=192.168.10.81:5001
+2013-12-03 08:51:10.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: migration_thread=false
+2013-12-03 08:51:10.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: enable_rules=true
+2013-12-03 08:51:10.999+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.server_id=1
+2013-12-03 08:51:11.000+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.server=192.168.10.81:6001
+2013-12-03 08:51:11.000+0000 INFO  [o.n.k.i.DiagnosticsManager]: storage_path=/home/pdipietro/myapp/db/ha_neo_1
+2013-12-03 08:51:11.000+0000 INFO  [o.n.k.i.DiagnosticsManager]: enable_ha=true
+2013-12-03 08:51:11.000+0000 INFO  [o.n.k.i.DiagnosticsManager]: ephemeral=false
+2013-12-03 08:51:11.002+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2013-12-03 08:51:11.002+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2013-12-03 08:51:11.002+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2013-12-03 08:51:11.002+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2013-12-03 08:51:11.002+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2013-12-03 08:51:11.002+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2013-12-03 08:51:11.002+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2013-12-03 08:51:11.002+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2013-12-03 08:51:11.002+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2013-12-03 08:51:11.003+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2013-12-03 08:51:11.003+0000 INFO  [o.n.k.i.DiagnosticsManager]: LINUX_SCHEDULERS
+2013-12-03 08:51:11.003+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2013-12-03 08:51:11.003+0000 INFO  [o.n.k.i.DiagnosticsManager]: NodeCache
+2013-12-03 08:51:11.003+0000 INFO  [o.n.k.i.DiagnosticsManager]: RelationshipCache
+2013-12-03 08:51:11.003+0000 INFO  [o.n.k.i.DiagnosticsManager]: HighAvailabilityDiagnostics
+2013-12-03 08:51:11.003+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2013-12-03 08:51:11.007+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 15.67 GB
+2013-12-03 08:51:11.007+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 12.43 GB
+2013-12-03 08:51:11.007+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 2.07 GB
+2013-12-03 08:51:11.007+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 16.00 GB
+2013-12-03 08:51:11.008+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 16.00 GB
+2013-12-03 08:51:11.009+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2013-12-03 08:51:11.009+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 151.15 MB
+2013-12-03 08:51:11.009+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 303.50 MB
+2013-12-03 08:51:11.009+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 444.50 MB
+2013-12-03 08:51:11.011+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2013-12-03 08:51:11.011+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2013-12-03 08:51:11.012+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=3.44 MB, used=3.33 MB, max=48.00 MB, threshold=0.00 B
+2013-12-03 08:51:11.012+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Eden Space (Heap memory): committed=126.00 MB, used=108.02 MB, max=131.50 MB, threshold=?
+2013-12-03 08:51:11.012+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Survivor Space (Heap memory): committed=10.50 MB, used=10.49 MB, max=10.50 MB, threshold=?
+2013-12-03 08:51:11.013+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Old Gen (Heap memory): committed=167.00 MB, used=33.83 MB, max=333.00 MB, threshold=0.00 B
+2013-12-03 08:51:11.013+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Perm Gen (Non-heap memory): committed=38.50 MB, used=38.37 MB, max=82.00 MB, threshold=0.00 B
+2013-12-03 08:51:11.013+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2013-12-03 08:51:11.014+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Linux; version: 3.11.0-13-generic; arch: amd64; cpus: 8
+2013-12-03 08:51:11.014+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max number of file descriptors: 4096
+2013-12-03 08:51:11.015+0000 INFO  [o.n.k.i.DiagnosticsManager]: Number of open file descriptors: 64
+2013-12-03 08:51:11.015+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 50503@ubuntu
+2013-12-03 08:51:11.015+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2013-12-03 08:51:11.015+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/Rome
+2013-12-03 08:51:11.015+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2013-12-03 08:51:11.015+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2013-12-03 08:51:11.015+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2013-12-03 08:51:11.015+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.45-b08
+2013-12-03 08:51:11.016+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2013-12-03 08:51:11.016+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Djdk.home=, -Djruby.home=/home/pdipietro/.rvm/rubies/jruby-1.7.6, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/arm-Linux:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/i386-Linux:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/x86_64-Linux, -Xmx500m, -Xss2048k, -Xbootclasspath/a:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jruby.jar]
+2013-12-03 08:51:11.016+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/json-1.8.1-java/lib/json/ext/parser.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-com-1.9.5.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/json-1.8.1-java/lib/json/ext/generator.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/concurrentlinkedhashmap-lru-1.3.1.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/zookeeper-3.3.2.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/server-api-1.9.5.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/charsets.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/slf4j-api-1.6.2.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/sunrsasign.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/ruby/shared/kryptcore.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/server-api-1.9.5.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/sunec.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-lucene-index-1.9.5.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/localedata.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-cypher-1.9.5.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/therubyrhino_jar-1.7.4/jar/rhino-1.7R4.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/log4j-1.2.16.jar
+2013-12-03 08:51:11.018+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-core-0.9.30.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-jmx-1.9.5.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/dnsns.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-advanced-1.9.5-java/lib/neo4j-advanced/jars/neo4j-management-1.9.5.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/jsse.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-graph-algo-1.9.5.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6@global/gems/bouncy-castle-java-1.5.0147/lib/bcpkix-jdk15on-147.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/sunjce_provider.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-udc-1.9.5.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6@global/gems/bouncy-castle-java-1.5.0147/lib/bcprov-jdk15on-147.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/lucene-core-3.6.2.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/zipfs.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/ruby/shared/kryptproviderjdk.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/geronimo-jta_1.1_spec-1.1.1.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/netty-3.6.3.Final.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/rt.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6@global/gems/jruby-openssl-0.9.4/lib/jopenssl.jar
+2013-12-03 08:51:11.019+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-consistency-check-1.9.5.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/jce.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-backup-1.9.5.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/resources.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-graph-matching-1.9.5.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.1] file:/home/pdipietro/myapp/
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/scala-library-2.10.0.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-core-2.3.0-java/lib/neo4j-core/jars/neo4jrb-adaptor.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/classes
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/sunpkcs11.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-access-0.9.30.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-kernel-1.9.5.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-classic-0.9.30.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-ha-1.9.5.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jruby.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/jfr.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-cluster-1.9.5.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-udc-1.9.5.jar
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/java/packages/lib/amd64
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib64
+2013-12-03 08:51:11.020+0000 INFO  [o.n.k.i.DiagnosticsManager]: /lib64
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: /lib
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.home = /home/pdipietro/.rvm/rubies/jruby-1.7.6
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = /usr/lib/jvm/jdk1.7.0_45/jre/lib/amd64
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = :
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = unknown
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = /home/pdipietro/myapp
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.source = neo4rb
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: jdk.home = 
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = UTF-8
+2013-12-03 08:51:11.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: jffi.boot.library.path = /home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/arm-Linux:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/i386-Linux:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/x86_64-Linux
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = /home/pdipietro
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/Rome
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = UTF-8
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.script = jruby
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = pdipietro
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.shell = /bin/sh
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org/jruby/Main script/rails s
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.awt.X11.XToolkit
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = /
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeLittle
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.desktop = gnome
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = 
+2013-12-03 08:51:11.022+0000 INFO  [o.n.k.i.DiagnosticsManager]: Linux scheduler information:
+2013-12-03 08:51:11.024+0000 INFO  [o.n.k.i.DiagnosticsManager]: noop [deadline] cfq 
+2013-12-03 08:51:11.024+0000 INFO  [o.n.k.i.DiagnosticsManager]: noop [deadline] cfq 
+2013-12-03 08:51:11.024+0000 INFO  [o.n.k.i.DiagnosticsManager]: noop [deadline] cfq 
+2013-12-03 08:51:11.024+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.024+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.024+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.025+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.025+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.025+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.025+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.025+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.025+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.025+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.025+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.026+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.026+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.026+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.026+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.026+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.026+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.027+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.027+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.027+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.027+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.027+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.027+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.027+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-03 08:51:11.027+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2013-12-03 08:51:11.029+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface eth0:
+2013-12-03 08:51:11.029+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:20c:29ff:fe03:b624%2
+2013-12-03 08:51:11.029+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.10.81
+2013-12-03 08:51:11.030+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface lo:
+2013-12-03 08:51:11.030+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1%1
+2013-12-03 08:51:11.030+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2013-12-03 08:51:11.030+0000 INFO  [o.n.k.i.DiagnosticsManager]: High Availability diagnostics
+Member state:PENDING
+State machines:
+   AtomicBroadcastMessage:start
+   AcceptorMessage:start
+   ProposerMessage:start
+   LearnerMessage:start
+   HeartbeatMessage:start
+   ElectionMessage:start
+   SnapshotMessage:start
+   ClusterMessage:start
+Current timeouts:
+
+2013-12-03 08:51:11.030+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2013-12-03 08:51:11.309+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=114b)
+2013-12-03 08:51:11.316+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=10b)
+2013-12-03 08:51:11.317+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db.strings] brickCount=0 brickSize=1445888b mappedMem=1445986304b (storeSize=128b)
+2013-12-03 08:51:11.317+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=190b)
+2013-12-03 08:51:11.320+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=36b)
+2013-12-03 08:51:11.322+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db.arrays] brickCount=0 brickSize=1638912b mappedMem=1638924288b (storeSize=128b)
+2013-12-03 08:51:11.328+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db] brickCount=10 brickSize=1701828b mappedMem=1701838848b (storeSize=17018362b)
+2013-12-03 08:51:11.332+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.relationshipstore.db] brickCount=10 brickSize=2084544b mappedMem=2084569088b (storeSize=20845671b)
+2013-12-03 08:51:11.335+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.nodestore.db] brickCount=1 brickSize=471852b mappedMem=471859200b (storeSize=471852b)
+2013-12-03 08:51:11.337+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-12-03 08:51:11.377+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/home/pdipietro/myapp/db/ha_neo_1/nioneo_logical.log.1] version=5, lastTxId=10 (clean)
+2013-12-03 08:51:11.384+0000 INFO  [o.n.k.i.t.TxManager]: TM opening log: /home/pdipietro/myapp/db/ha_neo_1/tm_tx_log.1
+2013-12-03 08:51:11.437+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/home/pdipietro/myapp/db/ha_neo_1/index/lucene.log.1] version=5, lastTxId=1 (clean)
+2013-12-03 08:51:11.445+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor started. 
+2013-12-03 08:51:11.689+0000 INFO  [o.n.c.m.p.PaxosClusterMemberAvailability]: Listening at:cluster://192.168.10.81:5001
+2013-12-03 08:51:11.701+0000 INFO  [o.n.c.c.ClusterJoin]: Attempting to join cluster of [192.168.10.81:5001, 192.168.10.81:5002, 192.168.10.81:5003]
+2013-12-03 08:51:11.735+0000 INFO  [o.n.c.c.NetworkSender]: cluster://192.168.10.81:5001 opened a new channel to /192.168.10.81:5001
+2013-12-03 08:51:11.741+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xfe748177] had no URI associated with it.
+2013-12-03 08:51:11.743+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf6cc136c] had no URI associated with it.
+2013-12-03 08:51:11.761+0000 WARN  [o.n.c.c.NetworkSender]: Could not connect to:cluster://192.168.10.81:5003
+org.neo4j.cluster.com.ChannelOpenFailedException: Client could not connect to /192.168.10.81:5003
+	at org.neo4j.cluster.com.NetworkSender.openChannel(NetworkSender.java:373) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.com.NetworkSender.access$200(NetworkSender.java:72) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.com.NetworkSender$2.run(NetworkSender.java:248) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_45]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_45]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2013-12-03 08:51:11.761+0000 WARN  [o.n.c.c.NetworkSender]: Could not connect to:cluster://192.168.10.81:5002
+org.neo4j.cluster.com.ChannelOpenFailedException: Client could not connect to /192.168.10.81:5002
+	at org.neo4j.cluster.com.NetworkSender.openChannel(NetworkSender.java:373) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.com.NetworkSender.access$200(NetworkSender.java:72) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.com.NetworkSender$2.run(NetworkSender.java:248) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_45]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_45]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2013-12-03 08:51:11.792+0000 INFO  [o.n.c.m.p.PaxosClusterMemberAvailability]: Listening at:cluster://192.168.10.81:5001
+2013-12-03 08:51:12.701+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x68c10b5e] had no URI associated with it.
+2013-12-03 08:51:12.703+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xe55469f6] had no URI associated with it.
+2013-12-03 08:51:13.704+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xfb94e0ba] had no URI associated with it.
+2013-12-03 08:51:13.705+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc71f2d08] had no URI associated with it.
+2013-12-03 08:51:14.708+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x11bac8a3] had no URI associated with it.
+2013-12-03 08:51:14.710+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6e4eda23] had no URI associated with it.
+2013-12-03 08:51:15.715+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7b8a939f] had no URI associated with it.
+2013-12-03 08:51:15.716+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0d1b5ef7] had no URI associated with it.
+2013-12-03 08:51:16.720+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xdddbd037] had no URI associated with it.
+2013-12-03 08:51:16.720+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2ecbf24b] had no URI associated with it.
+2013-12-03 08:51:17.723+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x529f41b9] had no URI associated with it.
+2013-12-03 08:51:17.725+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd7f87f93] had no URI associated with it.
+2013-12-03 08:51:18.724+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xa5f6d7f5] had no URI associated with it.
+2013-12-03 08:51:18.725+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x1b37ddd6] had no URI associated with it.
+2013-12-03 08:51:19.735+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x55e7b888] had no URI associated with it.
+2013-12-03 08:51:19.737+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x24f1a061] had no URI associated with it.
+2013-12-03 08:51:20.734+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x18325bf0] had no URI associated with it.
+2013-12-03 08:51:20.735+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4ac5cf50] had no URI associated with it.
+2013-12-03 08:51:21.735+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc5d35064] had no URI associated with it.
+2013-12-03 08:51:21.736+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xe77b540c] had no URI associated with it.
+2013-12-03 08:51:22.742+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc528a9da] had no URI associated with it.
+2013-12-03 08:51:22.743+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7d75f9a3] had no URI associated with it.
+2013-12-03 08:51:23.744+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x49197ab0] had no URI associated with it.
+2013-12-03 08:51:23.745+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7e1bf28a] had no URI associated with it.
+2013-12-03 08:51:24.749+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x910f83c4] had no URI associated with it.
+2013-12-03 08:51:24.750+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xfe48a369] had no URI associated with it.
+2013-12-03 08:51:25.756+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x5b357f50] had no URI associated with it.
+2013-12-03 08:51:25.757+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x28417b7e] had no URI associated with it.
+2013-12-03 08:51:26.766+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x1542299e] had no URI associated with it.
+2013-12-03 08:51:26.766+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xe86d1d08] had no URI associated with it.
+2013-12-03 08:51:27.767+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x09dc1d57] had no URI associated with it.
+2013-12-03 08:51:27.768+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x9da8badd] had no URI associated with it.
+2013-12-03 08:51:28.776+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x79e2ab5a] had no URI associated with it.
+2013-12-03 08:51:28.778+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x9ce2cfa5] had no URI associated with it.
+2013-12-03 08:51:29.783+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xeaff93d3] had no URI associated with it.
+2013-12-03 08:51:29.785+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7b5e0305] had no URI associated with it.
+2013-12-03 08:51:30.788+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xabfb13c9] had no URI associated with it.
+2013-12-03 08:51:30.789+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x49e86ce1] had no URI associated with it.
+2013-12-03 08:51:31.786+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6fa550f0] had no URI associated with it.
+2013-12-03 08:51:31.787+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2da695e7] had no URI associated with it.
+2013-12-03 08:51:32.788+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xafa6b9e8] had no URI associated with it.
+2013-12-03 08:51:32.788+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xfb27099e] had no URI associated with it.
+2013-12-03 08:51:33.788+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x9dab9c80] had no URI associated with it.
+2013-12-03 08:51:33.788+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4014405d] had no URI associated with it.
+2013-12-03 08:51:34.801+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x1926e088] had no URI associated with it.
+2013-12-03 08:51:34.801+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb87593fa] had no URI associated with it.
+2013-12-03 08:51:35.807+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0b29259f] had no URI associated with it.
+2013-12-03 08:51:35.808+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x139e97db] had no URI associated with it.
+2013-12-03 08:51:36.812+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd00c844a] had no URI associated with it.
+2013-12-03 08:51:36.812+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x662bdc5f] had no URI associated with it.
+2013-12-03 08:51:37.812+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xcb1533b1] had no URI associated with it.
+2013-12-03 08:51:37.812+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6995f24e] had no URI associated with it.
+2013-12-03 08:51:38.812+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x98a9fc35] had no URI associated with it.
+2013-12-03 08:51:38.812+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x8aed258d] had no URI associated with it.
+2013-12-03 08:51:39.817+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x16e61d0e] had no URI associated with it.
+2013-12-03 08:51:39.818+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xac9acdc2] had no URI associated with it.
+2013-12-03 08:51:40.822+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x015b602f] had no URI associated with it.
+2013-12-03 08:51:40.822+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xfd876035] had no URI associated with it.
+2013-12-03 08:51:41.827+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x9921413f] had no URI associated with it.
+2013-12-03 08:51:41.827+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7ea441fe] had no URI associated with it.
+2013-12-03 08:51:42.849+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0f23de8c] had no URI associated with it.
+2013-12-03 08:51:42.856+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x3f3e8107] had no URI associated with it.
+2013-12-03 08:51:43.844+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc42a2a7a] had no URI associated with it.
+2013-12-03 08:51:43.845+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x87533065] had no URI associated with it.
+2013-12-03 08:51:44.847+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xae90a4ea] had no URI associated with it.
+2013-12-03 08:51:44.848+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xfe2a64e6] had no URI associated with it.
+2013-12-03 08:51:45.854+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x81e20cbe] had no URI associated with it.
+2013-12-03 08:51:45.855+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xdae9d3ad] had no URI associated with it.
+2013-12-03 08:51:46.862+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x3750a9b8] had no URI associated with it.
+2013-12-03 08:51:46.862+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2d288e02] had no URI associated with it.
+2013-12-03 08:51:47.865+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xebc74bcc] had no URI associated with it.
+2013-12-03 08:51:47.865+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc5d65e3f] had no URI associated with it.
+2013-12-03 08:51:48.871+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xa68f35fd] had no URI associated with it.
+2013-12-03 08:51:48.871+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf0b5f220] had no URI associated with it.
+2013-12-03 08:51:49.879+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xfdcfd777] had no URI associated with it.
+2013-12-03 08:51:49.879+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x22c1afbf] had no URI associated with it.
+2013-12-03 08:51:50.887+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x19b3b1ac] had no URI associated with it.
+2013-12-03 08:51:50.888+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7779efe5] had no URI associated with it.
+2013-12-03 08:51:51.896+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x03f867ed] had no URI associated with it.
+2013-12-03 08:51:51.896+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7b39701e] had no URI associated with it.
+2013-12-03 08:51:52.904+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x91d539d5] had no URI associated with it.
+2013-12-03 08:51:52.904+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6ac0fbba] had no URI associated with it.
+2013-12-03 08:51:53.913+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xbe7c0a62] had no URI associated with it.
+2013-12-03 08:51:53.913+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x87d0f7c1] had no URI associated with it.
+2013-12-03 08:51:54.914+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd84b2fc3] had no URI associated with it.
+2013-12-03 08:51:54.914+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x97c46d47] had no URI associated with it.
+2013-12-03 08:51:55.921+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x99c818f3] had no URI associated with it.
+2013-12-03 08:51:55.922+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x328941fc] had no URI associated with it.
+2013-12-03 08:51:56.922+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x20042659] had no URI associated with it.
+2013-12-03 08:51:56.923+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x962e202d] had no URI associated with it.
+2013-12-03 08:51:57.926+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf6ba0cf9] had no URI associated with it.
+2013-12-03 08:51:57.927+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x79c45295] had no URI associated with it.
+2013-12-03 08:51:58.928+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf3f34ca7] had no URI associated with it.
+2013-12-03 08:51:58.928+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4e09610a] had no URI associated with it.
+2013-12-03 08:51:59.937+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb1da11bd] had no URI associated with it.
+2013-12-03 08:51:59.938+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0c288065] had no URI associated with it.
+2013-12-03 08:52:00.945+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x06019be3] had no URI associated with it.
+2013-12-03 08:52:00.945+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x9bb6f896] had no URI associated with it.
+2013-12-03 08:52:01.954+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x985fed8f] had no URI associated with it.
+2013-12-03 08:52:01.954+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x30dae71d] had no URI associated with it.
+2013-12-03 08:52:02.955+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb10424b7] had no URI associated with it.
+2013-12-03 08:52:02.955+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x777f90f0] had no URI associated with it.
+2013-12-03 08:52:03.962+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x37cfd307] had no URI associated with it.
+2013-12-03 08:52:03.963+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb0edc65c] had no URI associated with it.
+2013-12-03 08:52:04.967+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0efb18f3] had no URI associated with it.
+2013-12-03 08:52:04.968+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x35cef003] had no URI associated with it.
+2013-12-03 08:52:05.974+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xa51fb820] had no URI associated with it.
+2013-12-03 08:52:05.975+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb80a086a] had no URI associated with it.
+2013-12-03 08:52:06.986+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4e328eb4] had no URI associated with it.
+2013-12-03 08:52:06.987+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2b96a1f4] had no URI associated with it.
+2013-12-03 08:52:07.988+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd4d9de98] had no URI associated with it.
+2013-12-03 08:52:07.989+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xee7c9d32] had no URI associated with it.
+2013-12-03 08:52:08.996+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf28714a9] had no URI associated with it.
+2013-12-03 08:52:08.996+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x428f13fb] had no URI associated with it.
+2013-12-03 08:52:10.001+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xeb00c63c] had no URI associated with it.
+2013-12-03 08:52:10.001+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7efe48d0] had no URI associated with it.
+2013-12-03 08:52:11.004+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x63ada817] had no URI associated with it.
+2013-12-03 08:52:11.005+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x74ea26f0] had no URI associated with it.
+2013-12-03 08:52:12.004+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x46474e5f] had no URI associated with it.
+2013-12-03 08:52:12.004+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0593786c] had no URI associated with it.
+2013-12-03 08:52:13.005+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x1b565e88] had no URI associated with it.
+2013-12-03 08:52:13.005+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x63a3ffba] had no URI associated with it.
+2013-12-03 08:52:14.014+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7fe16507] had no URI associated with it.
+2013-12-03 08:52:14.015+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4edd96e9] had no URI associated with it.
+2013-12-03 08:52:15.025+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd5cefad0] had no URI associated with it.
+2013-12-03 08:52:15.025+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2ffa75de] had no URI associated with it.
+2013-12-03 08:52:16.026+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x65eb3a86] had no URI associated with it.
+2013-12-03 08:52:16.026+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xbf8342a6] had no URI associated with it.
+2013-12-03 08:52:17.028+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2a4d0c10] had no URI associated with it.
+2013-12-03 08:52:17.029+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7c529997] had no URI associated with it.
+2013-12-03 08:52:18.036+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x88c7acac] had no URI associated with it.
+2013-12-03 08:52:18.036+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x40cf891e] had no URI associated with it.
+2013-12-03 08:52:19.044+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb41ec7cf] had no URI associated with it.
+2013-12-03 08:52:19.045+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xa595b852] had no URI associated with it.
+2013-12-03 08:52:20.049+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x34ca3346] had no URI associated with it.
+2013-12-03 08:52:20.050+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x96ea36c8] had no URI associated with it.
+2013-12-03 08:52:21.046+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0b716930] had no URI associated with it.
+2013-12-03 08:52:21.047+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xe5912d91] had no URI associated with it.
+2013-12-03 08:52:22.049+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x1b676649] had no URI associated with it.
+2013-12-03 08:52:22.050+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4131fabe] had no URI associated with it.
+2013-12-03 08:52:23.049+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc65669b9] had no URI associated with it.
+2013-12-03 08:52:23.049+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb77343bf] had no URI associated with it.
+2013-12-03 08:52:24.056+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x53f89cca] had no URI associated with it.
+2013-12-03 08:52:24.057+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xa9d53721] had no URI associated with it.
+2013-12-03 08:52:25.064+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb7a47e23] had no URI associated with it.
+2013-12-03 08:52:25.065+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xac2d5275] had no URI associated with it.
+2013-12-03 08:52:26.064+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x03a63e21] had no URI associated with it.
+2013-12-03 08:52:26.064+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0c7cbcca] had no URI associated with it.
+2013-12-03 08:52:27.071+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xbde2fcf8] had no URI associated with it.
+2013-12-03 08:52:27.072+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x9a2b0c70] had no URI associated with it.
+2013-12-03 08:52:28.073+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xe9383c55] had no URI associated with it.
+2013-12-03 08:52:28.073+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4f45533d] had no URI associated with it.
+2013-12-03 08:52:29.078+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x3d305506] had no URI associated with it.
+2013-12-03 08:52:29.078+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x1f5e6f43] had no URI associated with it.
+2013-12-03 08:52:30.077+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x759e0a75] had no URI associated with it.
+2013-12-03 08:52:30.077+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xe1a0921e] had no URI associated with it.
+2013-12-03 08:52:31.088+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xaf68e5d1] had no URI associated with it.
+2013-12-03 08:52:31.088+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x74349a6b] had no URI associated with it.
+2013-12-03 08:52:32.089+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf3bd9b44] had no URI associated with it.
+2013-12-03 08:52:32.089+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x08bcd7e9] had no URI associated with it.
+2013-12-03 08:52:33.092+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb68deb4b] had no URI associated with it.
+2013-12-03 08:52:33.093+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0a4ef4c0] had no URI associated with it.
+2013-12-03 08:52:34.101+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xee5ee6e1] had no URI associated with it.
+2013-12-03 08:52:34.101+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xa96bb714] had no URI associated with it.
+2013-12-03 08:52:35.105+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x78077b32] had no URI associated with it.
+2013-12-03 08:52:35.105+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf2da39a4] had no URI associated with it.
+2013-12-03 08:52:36.110+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x04f0e205] had no URI associated with it.
+2013-12-03 08:52:36.112+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xae8c4738] had no URI associated with it.
+2013-12-03 08:52:37.117+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x8cc4811e] had no URI associated with it.
+2013-12-03 08:52:37.118+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0ea69910] had no URI associated with it.
+2013-12-03 08:52:38.125+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x8a67dee3] had no URI associated with it.
+2013-12-03 08:52:38.125+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x3b4939fa] had no URI associated with it.
+2013-12-03 08:52:39.134+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x285199cd] had no URI associated with it.
+2013-12-03 08:52:39.134+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd957a1e3] had no URI associated with it.
+2013-12-03 08:52:40.142+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x3584f9f1] had no URI associated with it.
+2013-12-03 08:52:40.142+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x169069a9] had no URI associated with it.
+2013-12-03 08:52:41.147+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4b61b7b5] had no URI associated with it.
+2013-12-03 08:52:41.147+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2f022464] had no URI associated with it.
+2013-12-03 08:52:42.147+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd704ed12] had no URI associated with it.
+2013-12-03 08:52:42.148+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc6f85edd] had no URI associated with it.
+2013-12-03 08:52:43.153+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x8ffeebb0] had no URI associated with it.
+2013-12-03 08:52:43.153+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xa6cc4a2e] had no URI associated with it.
+2013-12-03 08:52:44.154+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x42e4e8d6] had no URI associated with it.
+2013-12-03 08:52:44.155+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd6ed859e] had no URI associated with it.
+2013-12-03 08:52:45.158+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x8a9b3330] had no URI associated with it.
+2013-12-03 08:52:45.158+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x8b341a19] had no URI associated with it.
+2013-12-03 08:52:46.158+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xfe1d5762] had no URI associated with it.
+2013-12-03 08:52:46.159+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xddfd0647] had no URI associated with it.
+2013-12-03 08:52:47.164+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xaa00ce5f] had no URI associated with it.
+2013-12-03 08:52:47.165+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x94827dac] had no URI associated with it.
+2013-12-03 08:52:48.170+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf8a05848] had no URI associated with it.
+2013-12-03 08:52:48.171+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x342acb0e] had no URI associated with it.
+2013-12-03 08:52:49.169+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x291c6248] had no URI associated with it.
+2013-12-03 08:52:49.170+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7cb79c0f] had no URI associated with it.
+2013-12-03 08:52:50.177+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x53cb3c45] had no URI associated with it.
+2013-12-03 08:52:50.177+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xed3c4319] had no URI associated with it.
+2013-12-03 08:52:51.178+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xdfe556c9] had no URI associated with it.
+2013-12-03 08:52:51.179+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x704cb2af] had no URI associated with it.
+2013-12-03 08:52:52.188+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc0cbd5d4] had no URI associated with it.
+2013-12-03 08:52:52.188+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6845664b] had no URI associated with it.
+2013-12-03 08:52:53.195+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc3f5e4ca] had no URI associated with it.
+2013-12-03 08:52:53.196+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x1e4c0f25] had no URI associated with it.
+2013-12-03 08:52:54.198+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xe4e5b5a7] had no URI associated with it.
+2013-12-03 08:52:54.198+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0ce7ba96] had no URI associated with it.
+2013-12-03 08:52:55.207+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x8105775b] had no URI associated with it.
+2013-12-03 08:52:55.207+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x9aa81fa6] had no URI associated with it.
+2013-12-03 08:52:56.207+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xeb57c05d] had no URI associated with it.
+2013-12-03 08:52:56.208+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc0c445aa] had no URI associated with it.
+2013-12-03 08:52:57.209+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x366ed41a] had no URI associated with it.
+2013-12-03 08:52:57.253+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xafe53dbf] had no URI associated with it.
+2013-12-03 08:52:58.212+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7f4b5cbe] had no URI associated with it.
+2013-12-03 08:52:58.213+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x10b6038b] had no URI associated with it.
+2013-12-03 08:52:59.217+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x26a2a698] had no URI associated with it.
+2013-12-03 08:52:59.218+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xed2c2f81] had no URI associated with it.
+2013-12-03 08:53:00.227+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd0513e8b] had no URI associated with it.
+2013-12-03 08:53:00.228+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb3653616] had no URI associated with it.
+2013-12-03 08:53:01.230+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x67f9820b] had no URI associated with it.
+2013-12-03 08:53:01.230+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xbd1a63e9] had no URI associated with it.
+2013-12-03 08:53:02.234+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0db89d05] had no URI associated with it.
+2013-12-03 08:53:02.234+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6ee8965a] had no URI associated with it.
+2013-12-03 08:53:03.242+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xdde3cd94] had no URI associated with it.
+2013-12-03 08:53:03.243+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb7830e35] had no URI associated with it.
+2013-12-03 08:53:04.252+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x9fa0a91d] had no URI associated with it.
+2013-12-03 08:53:04.253+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xbfdbebb9] had no URI associated with it.
+2013-12-03 08:53:05.257+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xff7abf63] had no URI associated with it.
+2013-12-03 08:53:05.258+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x3cd113d4] had no URI associated with it.
+2013-12-03 08:53:06.268+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x91753760] had no URI associated with it.
+2013-12-03 08:53:06.268+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x619fecd5] had no URI associated with it.
+2013-12-03 08:53:07.268+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xa211867b] had no URI associated with it.
+2013-12-03 08:53:07.268+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x8937453c] had no URI associated with it.
+2013-12-03 08:53:08.271+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x90816b21] had no URI associated with it.
+2013-12-03 08:53:08.271+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xaaf2f4c3] had no URI associated with it.
+2013-12-03 08:53:09.280+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x571f15ab] had no URI associated with it.
+2013-12-03 08:53:09.281+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6e548706] had no URI associated with it.
+2013-12-03 08:53:10.280+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x8f33c14c] had no URI associated with it.
+2013-12-03 08:53:10.281+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x886f060a] had no URI associated with it.
+2013-12-03 08:53:11.289+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x11abab08] had no URI associated with it.
+2013-12-03 08:53:11.289+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x07e86812] had no URI associated with it.
+2013-12-03 08:53:12.288+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd1e9d010] had no URI associated with it.
+2013-12-03 08:53:12.288+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb5e41e55] had no URI associated with it.
+2013-12-03 08:53:13.290+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2e49bab9] had no URI associated with it.
+2013-12-03 08:53:13.290+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x173995cf] had no URI associated with it.
+2013-12-03 08:53:14.297+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x47fe0574] had no URI associated with it.
+2013-12-03 08:53:14.297+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6a1f68b4] had no URI associated with it.
+2013-12-03 08:53:15.298+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4232330e] had no URI associated with it.
+2013-12-03 08:53:15.298+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb1b8d0b9] had no URI associated with it.
+2013-12-03 08:53:16.298+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x38cc103f] had no URI associated with it.
+2013-12-03 08:53:16.299+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xce8afb0c] had no URI associated with it.
+2013-12-03 08:53:17.305+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb5402523] had no URI associated with it.
+2013-12-03 08:53:17.306+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x58d86dd7] had no URI associated with it.
+2013-12-03 08:53:18.312+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x18955558] had no URI associated with it.
+2013-12-03 08:53:18.313+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x028a948f] had no URI associated with it.
+2013-12-03 08:53:19.320+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x77bb62f3] had no URI associated with it.
+2013-12-03 08:53:19.321+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd4066c36] had no URI associated with it.
+2013-12-03 08:53:20.388+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc603bb3d] had no URI associated with it.
+2013-12-03 08:53:20.389+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xbdaa6ba0] had no URI associated with it.
+2013-12-03 08:53:21.395+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc55b5939] had no URI associated with it.
+2013-12-03 08:53:21.395+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7e7ef026] had no URI associated with it.
+2013-12-03 08:53:22.395+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x70d667f0] had no URI associated with it.
+2013-12-03 08:53:22.396+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6ec546b9] had no URI associated with it.
+2013-12-03 08:53:23.395+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4eb14a30] had no URI associated with it.
+2013-12-03 08:53:23.395+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2ec09712] had no URI associated with it.
+2013-12-03 08:53:24.398+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb3f8bf8e] had no URI associated with it.
+2013-12-03 08:53:24.399+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x17c7ea2e] had no URI associated with it.
+2013-12-03 08:53:25.406+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x704deb1a] had no URI associated with it.
+2013-12-03 08:53:25.406+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xdf38ba0b] had no URI associated with it.
+2013-12-03 08:53:26.409+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x8f1141e6] had no URI associated with it.
+2013-12-03 08:53:26.409+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x3cf81472] had no URI associated with it.
+2013-12-03 08:53:27.416+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb4ed09d9] had no URI associated with it.
+2013-12-03 08:53:27.416+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x975091d2] had no URI associated with it.
+2013-12-03 08:53:28.415+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xef307be9] had no URI associated with it.
+2013-12-03 08:53:28.415+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x07702bfa] had no URI associated with it.
+2013-12-03 08:53:29.426+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc8c026fa] had no URI associated with it.
+2013-12-03 08:53:29.426+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf7d767da] had no URI associated with it.
+2013-12-03 08:53:30.435+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x5b35aedf] had no URI associated with it.
+2013-12-03 08:53:30.435+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x12d0d4dd] had no URI associated with it.
+2013-12-03 08:53:31.441+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x9b2dd59e] had no URI associated with it.
+2013-12-03 08:53:31.441+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xbbc29afc] had no URI associated with it.
+2013-12-03 08:53:32.443+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x14205c28] had no URI associated with it.
+2013-12-03 08:53:32.444+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x861d9777] had no URI associated with it.
+2013-12-03 08:53:33.449+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x22c81161] had no URI associated with it.
+2013-12-03 08:53:33.450+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf7215fa9] had no URI associated with it.
+2013-12-03 08:53:34.456+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x88a829e8] had no URI associated with it.
+2013-12-03 08:53:34.456+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2004fb88] had no URI associated with it.
+2013-12-03 08:53:35.464+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0aeced63] had no URI associated with it.
+2013-12-03 08:53:35.464+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6d5a7075] had no URI associated with it.
+2013-12-03 08:53:36.473+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc89cfe97] had no URI associated with it.
+2013-12-03 08:53:36.474+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc2719204] had no URI associated with it.
+2013-12-03 08:53:37.483+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x899793c0] had no URI associated with it.
+2013-12-03 08:53:37.483+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x98b8cfbd] had no URI associated with it.
+2013-12-03 08:53:38.488+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x818a5c11] had no URI associated with it.
+2013-12-03 08:53:38.489+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x33e5bcd8] had no URI associated with it.
+2013-12-03 08:53:39.499+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xab4ff5d0] had no URI associated with it.
+2013-12-03 08:53:39.499+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x347dd1f8] had no URI associated with it.
+2013-12-03 08:53:40.506+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb97b569b] had no URI associated with it.
+2013-12-03 08:53:40.506+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x15b7303d] had no URI associated with it.
+2013-12-03 08:53:41.513+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xa46b7c23] had no URI associated with it.
+2013-12-03 08:53:41.514+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x801c39d9] had no URI associated with it.
+2013-12-03 08:53:42.516+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xee3762d4] had no URI associated with it.
+2013-12-03 08:53:42.516+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xea91caa1] had no URI associated with it.
+2013-12-03 08:53:43.523+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xcecb9fc3] had no URI associated with it.
+2013-12-03 08:53:43.524+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4a8f14a2] had no URI associated with it.
+2013-12-03 08:53:44.533+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xfece5b0f] had no URI associated with it.
+2013-12-03 08:53:44.534+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb650baa0] had no URI associated with it.
+2013-12-03 08:53:45.535+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2469a845] had no URI associated with it.
+2013-12-03 08:53:45.535+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xe6fe332a] had no URI associated with it.
+2013-12-03 08:53:46.531+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf0fcda95] had no URI associated with it.
+2013-12-03 08:53:46.531+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x3e87aca1] had no URI associated with it.
+2013-12-03 08:53:47.538+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd77bfc49] had no URI associated with it.
+2013-12-03 08:53:47.538+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7b5e69f8] had no URI associated with it.
+2013-12-03 08:53:48.546+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xfb6426e8] had no URI associated with it.
+2013-12-03 08:53:48.546+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x77f91fe7] had no URI associated with it.
+2013-12-03 08:53:49.545+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf84251e4] had no URI associated with it.
+2013-12-03 08:53:49.546+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x808c62f0] had no URI associated with it.
+2013-12-03 08:53:50.546+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x33a0895d] had no URI associated with it.
+2013-12-03 08:53:50.548+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x1354d8ce] had no URI associated with it.
+2013-12-03 08:53:51.548+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb5bf5fcc] had no URI associated with it.
+2013-12-03 08:53:51.549+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x43d0f7bc] had no URI associated with it.
+2013-12-03 08:53:52.551+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4d64bcee] had no URI associated with it.
+2013-12-03 08:53:52.551+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0f032454] had no URI associated with it.
+2013-12-03 08:53:53.554+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc7a758aa] had no URI associated with it.
+2013-12-03 08:53:53.555+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0f7ee398] had no URI associated with it.
+2013-12-03 08:53:54.555+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6b5b64e1] had no URI associated with it.
+2013-12-03 08:53:54.556+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4484d046] had no URI associated with it.
+2013-12-03 08:53:55.563+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x5e04a3b8] had no URI associated with it.
+2013-12-03 08:53:55.564+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xe378f144] had no URI associated with it.
+2013-12-03 08:53:56.571+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x09fd7518] had no URI associated with it.
+2013-12-03 08:53:56.571+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7d374750] had no URI associated with it.
+2013-12-03 08:53:57.575+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xda3b0051] had no URI associated with it.
+2013-12-03 08:53:57.576+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x1cba8f95] had no URI associated with it.
+2013-12-03 08:53:58.576+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xfefc6360] had no URI associated with it.
+2013-12-03 08:53:58.576+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6a69d17a] had no URI associated with it.
+2013-12-03 08:53:59.580+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd8a6c899] had no URI associated with it.
+2013-12-03 08:53:59.580+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7a70b05f] had no URI associated with it.
+2013-12-03 08:54:00.587+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc188b8ab] had no URI associated with it.
+2013-12-03 08:54:00.588+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x10ecba4f] had no URI associated with it.
+2013-12-03 08:54:01.591+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x5621a203] had no URI associated with it.
+2013-12-03 08:54:01.592+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb546bb06] had no URI associated with it.
+2013-12-03 08:54:02.594+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x52006267] had no URI associated with it.
+2013-12-03 08:54:02.594+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x8cbdd45e] had no URI associated with it.
+2013-12-03 08:54:03.603+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xcfb388de] had no URI associated with it.
+2013-12-03 08:54:03.603+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xe5473d90] had no URI associated with it.
+2013-12-03 08:54:04.610+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x264331b7] had no URI associated with it.
+2013-12-03 08:54:04.611+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x37d84453] had no URI associated with it.
+2013-12-03 08:54:05.613+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x5b32caea] had no URI associated with it.
+2013-12-03 08:54:05.613+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6f05e01e] had no URI associated with it.
+2013-12-03 08:54:06.619+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7d12565f] had no URI associated with it.
+2013-12-03 08:54:06.619+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xc2f49de8] had no URI associated with it.
+2013-12-03 08:54:07.618+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x35b54117] had no URI associated with it.
+2013-12-03 08:54:07.618+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xdb11e2d2] had no URI associated with it.
+2013-12-03 08:54:08.628+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2404919a] had no URI associated with it.
+2013-12-03 08:54:08.629+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xd826ee65] had no URI associated with it.
+2013-12-03 08:54:09.636+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x1dcfed16] had no URI associated with it.
+2013-12-03 08:54:09.637+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf7171947] had no URI associated with it.
+2013-12-03 08:54:10.641+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x43969b8b] had no URI associated with it.
+2013-12-03 08:54:10.642+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf8681208] had no URI associated with it.
+2013-12-03 08:54:11.654+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x0e51b873] had no URI associated with it.
+2013-12-03 08:54:11.654+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x9d7d3e19] had no URI associated with it.
+2013-12-03 08:54:12.665+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2e9accb4] had no URI associated with it.
+2013-12-03 08:54:12.665+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x80d19ae7] had no URI associated with it.
+2013-12-03 08:54:13.671+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xcdaa7aa9] had no URI associated with it.
+2013-12-03 08:54:13.672+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x150290e9] had no URI associated with it.
+2013-12-03 08:54:14.672+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x281a6a81] had no URI associated with it.
+2013-12-03 08:54:14.673+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x65d1c237] had no URI associated with it.
+2013-12-03 08:54:15.674+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6b4775f1] had no URI associated with it.
+2013-12-03 08:54:15.674+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x6a802721] had no URI associated with it.
+2013-12-03 08:54:16.675+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xe8b193e5] had no URI associated with it.
+2013-12-03 08:54:16.676+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x2b4bbf11] had no URI associated with it.
+2013-12-03 08:54:17.683+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x089506b5] had no URI associated with it.
+2013-12-03 08:54:17.684+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x1b814b9c] had no URI associated with it.
+2013-12-03 08:54:18.688+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf43cbfd9] had no URI associated with it.
+2013-12-03 08:54:18.689+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x7c4868c1] had no URI associated with it.
+2013-12-03 08:54:19.696+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x3420842c] had no URI associated with it.
+2013-12-03 08:54:19.696+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf50586a2] had no URI associated with it.
+2013-12-03 08:54:20.702+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x708fc172] had no URI associated with it.
+2013-12-03 08:54:20.703+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x12cf890e] had no URI associated with it.
+2013-12-03 08:54:21.709+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xe6ed05b9] had no URI associated with it.
+2013-12-03 08:54:21.710+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x23beb29e] had no URI associated with it.
+2013-12-03 08:54:22.713+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x85bfe795] had no URI associated with it.
+2013-12-03 08:54:22.714+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4e5e205f] had no URI associated with it.
+2013-12-03 08:54:23.716+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x916d167f] had no URI associated with it.
+2013-12-03 08:54:23.716+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x30e6ac2b] had no URI associated with it.
+2013-12-03 08:54:24.720+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x9b6ccc72] had no URI associated with it.
+2013-12-03 08:54:24.720+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x4f915f91] had no URI associated with it.
+2013-12-03 08:54:25.723+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x260091a2] had no URI associated with it.
+2013-12-03 08:54:25.723+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x5a9c7adb] had no URI associated with it.
+2013-12-03 08:54:26.727+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x40171d2e] had no URI associated with it.
+2013-12-03 08:54:26.728+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xf3d7e72e] had no URI associated with it.
+2013-12-03 08:54:27.731+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x033456e3] had no URI associated with it.
+2013-12-03 08:54:27.731+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x8933db46] had no URI associated with it.
+2013-12-03 08:54:28.752+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x5a8eb7d1] had no URI associated with it.
+2013-12-03 08:54:28.752+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x473645cf] had no URI associated with it.
+2013-12-03 08:54:29.755+0000 INFO  [o.n.c.c.ClusterJoin]: Could not join cluster of [192.168.10.81:5001, 192.168.10.81:5002, 192.168.10.81:5003]
+2013-12-03 08:54:29.755+0000 INFO  [o.n.c.c.ClusterJoin]: Creating new cluster with name [neo4j.ha]...
+2013-12-03 08:54:29.756+0000 INFO  [o.n.c.p.c.ClusterState]: Creating cluster: neo4j.ha
+2013-12-03 08:54:29.765+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) joined the cluster
+2013-12-03 08:54:29.777+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: I am 1, moving to master
+2013-12-03 08:54:29.824+0000 INFO  [o.n.k.h.c.m.MasterServer]: MasterServer communication server started and bound to /192.168.10.81:6001
+2013-12-03 08:54:29.833+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: I am 1, successfully moved to master
+2013-12-03 08:54:29.834+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) was elected as coordinator
+2013-12-03 08:54:29.837+0000 INFO  [o.n.c.p.e.ElectionContext]: Doing elections for role coordinator
+2013-12-03 08:54:29.868+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) was elected as coordinator
+2013-12-03 08:54:29.874+0000 INFO  [o.n.c.m.p.PaxosClusterMemberEvents]: Snapshot:[MemberIsAvailable[ Role: master, InstanceId: 1, Role URI: ha://192.168.10.81:6001?serverId=1, Cluster URI: cluster://192.168.10.81:5001]]
+2013-12-03 08:54:29.875+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) is available as master at ha://192.168.10.81:6001?serverId=1
+2013-12-03 08:54:29.880+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2013-12-03 08:54:29.880+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.ha.HighlyAvailableGraphDatabase StoreId[time:1385317330536, id:411980207311497188, store version: 13561656364791302]
+2013-12-03 08:54:29.880+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel 1.9.5
+2013-12-03 08:54:29.880+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2013-12-03 08:54:29.886+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel 1.9.5
+2013-12-03 08:54:29.886+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2013-12-03 08:54:29.889+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2013-12-03 08:54:29.890+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2013-12-03 08:54:29.890+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2013-12-03 08:54:29.890+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.0
+2013-12-03 08:54:29.890+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.0
+2013-12-03 08:54:29.890+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.0
+2013-12-03 08:54:29.890+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.0
+2013-12-03 08:54:29.890+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.0
+2013-12-03 08:54:29.891+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.0
+2013-12-03 08:54:29.891+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.0
+2013-12-03 08:54:29.891+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.0
+2013-12-03 08:54:29.891+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2013-12-03 08:54:29.891+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2013-12-03 08:54:29.891+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2013-12-03 08:54:29.891+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2013-12-03 08:54:29.891+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=52428 high=52427
+2013-12-03 08:54:29.892+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=631687 high=631686
+2013-12-03 08:54:29.892+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=2 high=1
+2013-12-03 08:54:29.892+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=415082 high=415081
+2013-12-03 08:54:29.892+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=4 high=3
+2013-12-03 08:54:29.892+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=1 high=0
+2013-12-03 08:54:29.892+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2013-12-03 08:54:29.893+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2013-12-03 08:54:29.893+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-12-03 08:54:29.893+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-12-03 08:54:29.893+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-12-03 08:54:29.894+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 25230176256 / 19342553088 / 76
+Storage files: (filename : modification date - size)
+2013-12-03 08:54:29.895+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v0: 2013-11-24T19:28:07+0100 - 987.00 B
+2013-12-03 08:54:29.896+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v3: 2013-11-24T19:34:48+0100 - 452.00 B
+2013-12-03 08:54:29.896+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2013-12-03T09:51:11+0100 - 9.00 B
+2013-12-03 08:54:29.896+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2013-12-03T09:51:11+0100 - 36.00 B
+2013-12-03 08:54:29.896+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2013-12-03T09:51:11+0100 - 190.00 B
+2013-12-03 08:54:29.897+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2013-12-03T09:51:11+0100 - 0.00 B
+2013-12-03 08:54:29.897+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2013-12-03T09:51:11+0100 - 0.00 B
+2013-12-03 08:54:29.897+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2013-12-03T09:51:11+0100 - 9.00 B
+2013-12-03 08:54:29.897+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2013-12-03T09:51:11+0100 - 9.00 B
+2013-12-03 08:54:29.898+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.1: 2013-12-03T09:51:11+0100 - 16.00 B
+2013-12-03 08:54:29.898+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2013-12-03T09:51:11+0100 - 114.00 B
+2013-12-03 08:54:29.898+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2013-12-03T09:51:11+0100 - 16.23 MB
+2013-12-03 08:54:29.898+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2013-12-03T09:51:11+0100 - 4.00 B
+2013-12-03 08:54:29.899+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2013-12-03T09:51:11+0100 - 9.00 B
+2013-12-03 08:54:29.899+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2013-12-03T09:51:11+0100 - 54.00 B
+2013-12-03 08:54:29.899+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2013-11-24T19:28:12+0100 - 11.00 B
+2013-12-03 08:54:29.900+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2013-12-03T09:51:11+0100 - 128.00 B
+2013-12-03 08:54:29.900+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v2: 2013-11-24T19:28:12+0100 - 16.00 B
+2013-12-03 08:54:29.900+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2013-12-03T09:51:11+0100 - 128.00 B
+2013-12-03 08:54:29.901+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v4: 2013-11-29T16:29:30+0100 - 16.00 B
+2013-12-03 08:54:29.901+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2013-11-24T19:28:08+0100 - 0.00 B
+2013-12-03 08:54:29.901+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2013-12-03T09:51:11+0100 - 10.00 B
+2013-12-03 08:54:29.901+0000 INFO  [o.n.k.i.DiagnosticsManager]:   branched:
+2013-12-03 08:54:29.902+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2013-11-24T19:28:06+0100 - 0.00 B
+2013-12-03 08:54:29.902+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2013-12-03T09:51:11+0100 - 9.00 B
+2013-12-03 08:54:29.902+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2013-12-03T09:51:11+0100 - 9.00 B
+2013-12-03 08:54:29.903+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2013-12-03T09:51:11+0100 - 19.88 MB
+2013-12-03 08:54:29.903+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2013-12-03T09:54:29+0100 - 180.43 kB
+2013-12-03 08:54:29.903+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v1: 2013-11-24T19:28:08+0100 - 783.00 B
+2013-12-03 08:54:29.903+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2013-12-03T09:51:11+0100 - 9.00 B
+2013-12-03 08:54:29.903+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2013-12-03T09:51:11+0100 - 9.00 B
+2013-12-03 08:54:29.904+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2013-12-03T09:51:11+0100 - 9.00 B
+2013-12-03 08:54:29.904+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2013-12-03T09:51:11+0100 - 460.79 kB
+2013-12-03 08:54:29.904+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2013-12-03T09:51:11+0100 - 9.00 B
+2013-12-03 08:54:29.904+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2013-12-03 08:54:29.905+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.v2: 2013-11-24T19:28:11+0100 - 16.00 B
+2013-12-03 08:54:29.905+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2013-11-29T16:29:30+0100 - 40.00 B
+2013-12-03 08:54:29.905+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.v4: 2013-11-29T16:29:30+0100 - 16.00 B
+2013-12-03 08:54:29.906+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.1: 2013-12-03T09:51:11+0100 - 16.00 B
+2013-12-03 08:54:29.906+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.v3: 2013-11-24T19:34:48+0100 - 16.00 B
+2013-12-03 08:54:29.907+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2013-12-03T09:51:11+0100 - 4.00 B
+2013-12-03 08:54:29.907+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2013-12-03T09:51:11+0100 - 108.00 B
+2013-12-03 08:54:29.907+0000 INFO  [o.n.k.i.DiagnosticsManager]:   temp-copy:
+2013-12-03 08:54:29.907+0000 INFO  [o.n.k.i.DiagnosticsManager]:     tm_tx_log.1: 2013-11-24T19:28:11+0100 - 0.00 B
+2013-12-03 08:54:29.908+0000 INFO  [o.n.k.i.DiagnosticsManager]:     active_tx_log: 2013-11-24T19:28:11+0100 - 11.00 B
+2013-12-03 08:54:29.908+0000 INFO  [o.n.k.i.DiagnosticsManager]:     messages.log: 2013-11-24T19:28:12+0100 - 37.28 kB
+2013-12-03 08:54:29.908+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2013-11-24T19:28:12+0100 - 37.29 kB
+2013-12-03 08:54:29.908+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-12-03 08:54:29.909+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: Database is now ready
+2013-12-03 08:54:29.909+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Database available for write transactions
+2013-12-03 08:54:30.336+0000 INFO  [o.n.c.c.NetworkSender]: cluster://192.168.10.81:5001 opened a new channel to /192.168.10.81:5003
+2013-12-03 08:54:30.371+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 joined the cluster
+2013-12-03 08:54:30.431+0000 INFO  [o.n.c.p.e.ElectionContext]: Doing elections for role coordinator
+2013-12-03 08:54:30.501+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) was elected as coordinator
+2013-12-03 08:54:31.151+0000 INFO  [o.n.c.m.p.PaxosClusterMemberEvents]: Snapshot:[MemberIsAvailable[ Role: master, InstanceId: 1, Role URI: ha://192.168.10.81:6001?serverId=1, Cluster URI: cluster://192.168.10.81:5001], MemberIsAvailable[ Role: slave, InstanceId: 3, Role URI: ha://192.168.10.81:6003?serverId=3, Cluster URI: cluster://192.168.10.81:5003]]
+2013-12-03 08:54:31.151+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 is available as slave at ha://192.168.10.81:6003?serverId=3
+2013-12-03 09:01:21.522+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 466ms [total block time: 0.466s]
+2013-12-03 09:34:04.420+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 219ms [total block time: 0.685s]
+2013-12-03 09:35:59.013+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 148ms [total block time: 0.833s]
+2013-12-03 09:36:15.845+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 116ms [total block time: 0.949s]
+2013-12-03 09:37:12.887+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 121ms [total block time: 1.07s]
