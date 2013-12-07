@@ -22,6 +22,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Turbolinks makes following links in your web application faster.
 # Read more: https://github.com/rails/turbolinks
@@ -33,6 +34,7 @@ gem 'jbuilder', '~> 1.0.1'
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 group :doc do
@@ -64,3 +66,5 @@ gem "neo4j", ">= 2.2.3"
 gem 'neo4j-community',">= 1.9"
 gem 'neo4j-advanced',">= 1.9"
 gem 'neo4j-enterprise',">= 1.9"
+
+#gem 'activemodel','3.2.15'

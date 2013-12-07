@@ -1,6 +1,7 @@
 Myapp::Application.routes.draw do
 
-  get "users/new"
+  resources   :users
+  resources   :credentials
 
   root                :to => 'static_pages#home'
   match '/home',      to: 'static_pages#home',          via: 'get'
