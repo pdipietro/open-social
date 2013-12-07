@@ -1793,3 +1793,5 @@ Storage files: (filename : modification date - size)
 2013-12-07 09:37:51.255+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: Database is now ready
 2013-12-07 09:37:51.256+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Database available for write transactions
 2013-12-07 09:37:51.257+0000 INFO  [o.n.k.h.c.s.MasterClient18]: Opened a new channel to /192.168.10.81:6001
+2013-12-07 09:43:09.986+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 111ms [total block time: 0.111s]
+2013-12-07 09:43:10.340+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 152ms [total block time: 0.263s]

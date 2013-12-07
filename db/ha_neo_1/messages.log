@@ -2306,3 +2306,4 @@ Storage files: (filename : modification date - size)
 2013-12-07 09:41:59.160+0000 INFO  [o.n.k.h.c.m.SlaveClient]: SlaveClient communication channel created towards 192.168.10.81:6003
 2013-12-07 09:41:59.183+0000 INFO  [o.n.k.h.c.m.SlaveClient]: Opened a new channel to /192.168.10.81:6003
 2013-12-07 09:42:08.025+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 153ms [total block time: 0.286s]
+2013-12-07 09:43:10.340+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 237ms [total block time: 0.523s]
