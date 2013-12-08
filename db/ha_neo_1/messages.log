@@ -988,3 +988,4 @@ Storage files: (filename : modification date - size)
 2013-12-08 15:57:16.026+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 109ms [total block time: 31.647s]
 2013-12-08 15:59:40.300+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 510ms [total block time: 32.157s]
 2013-12-08 16:00:12.115+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 130ms [total block time: 32.287s]
+2013-12-08 16:07:32.739+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 243ms [total block time: 32.53s]
