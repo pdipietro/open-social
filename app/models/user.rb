@@ -10,6 +10,7 @@ class User < Neo4j::Rails::Model
 
   property :name, :type => String
   property :password_digest, :type => String
+  property :remember_token, :type => String
 
  # has_secure_password
 
@@ -17,15 +18,29 @@ class User < Neo4j::Rails::Model
   validates :last_name, presence: true
   validates :nick_name, presence: true, length: {minimum: 2}
 
+  validates :password_confirmation, presence: true
+  after_validation { self.errors.messages.delete(:password_digest) }
+
   has_n(:credentials).from(Credential, :credential)
 
-    class << self
-      attr_accessor :min_cost # :nodoc:
-    end
-    self.min_cost = false
+  class << self
+    attr_accessor :min_cost # :nodoc:
+  end
+  self.min_cost = false
 
   def formatted_email
     "#{self.first_name} #{self.last_name} (#{self.nick_name}) <#{self.email}>"
+  end
+
+  before_save { self.email = email.downcase }
+  before_save :create_remember_token
+
+  def User.new_remember_token
+    SecureRandom.urlsafe_base64
+  end
+
+  def User.encrypt(token)
+    Digest::SHA1.hexdigest(token.to_s)
   end
 
 # ---------------------------------------------------------
@@ -82,7 +97,7 @@ class User < Neo4j::Rails::Model
 #  end # def has_secure_password
 
 # --------------------------------------------
-
+=begin
    module InstanceMethodsOnActivation
       def authenticate(unencrypted_password)
         BCrypt::Password.new(password_digest) == unencrypted_password && self
@@ -108,8 +123,15 @@ class User < Neo4j::Rails::Model
 
     end # module
 
+=end
+
 #def has_secure_password
 #end
 #has_secure_password 
+
+  private
+    def create_remember_token
+      self.remember_token = SecureRandom.urlsafe_base64
+    end
 
 end

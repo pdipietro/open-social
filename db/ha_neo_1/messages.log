@@ -358,3 +358,633 @@ Storage files: (filename : modification date - size)
 2013-12-07 15:02:51.207+0000 INFO  [o.n.k.h.c.m.SlaveClient]: SlaveClient communication channel created towards 192.168.10.81:6003
 2013-12-07 15:02:51.251+0000 INFO  [o.n.k.h.c.m.SlaveClient]: Opened a new channel to /192.168.10.81:6003
 2013-12-07 15:03:03.499+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 162ms [total block time: 0.162s]
+2013-12-07 15:11:52.203+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 116ms [total block time: 0.278s]
+2013-12-07 15:13:04.553+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 258ms [total block time: 0.536s]
+2013-12-07 15:13:55.340+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 106ms [total block time: 0.642s]
+2013-12-07 15:14:34.673+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 172ms [total block time: 0.814s]
+2013-12-07 15:15:01.128+0000 INFO  [o.n.c.c.NetworkSender]: cluster://192.168.10.81:5001 opened a new channel to /192.168.10.81:5002
+2013-12-07 15:15:01.173+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 2 joined the cluster
+2013-12-07 15:15:01.211+0000 INFO  [o.n.c.p.e.ElectionContext]: Doing elections for role coordinator
+2013-12-07 15:15:01.242+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) was elected as coordinator
+2013-12-07 15:15:01.263+0000 INFO  [o.n.k.h.c.m.SlaveClient]: SlaveClient[/192.168.10.81:6003] shutdown
+2013-12-07 15:15:01.696+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Rotating [/home/pdipietro/myapp/db/ha_neo_1/index/lucene.log.2] @ version=1 to /home/pdipietro/myapp/db/ha_neo_1/index/lucene.log.1 from position 751
+2013-12-07 15:15:01.703+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Rotate: old log scanned, newLog @ pos=16
+2013-12-07 15:15:01.705+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Log rotated, newLog @ pos=16, version 2 and last tx 4
+2013-12-07 15:15:01.706+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Rotating [/home/pdipietro/myapp/db/ha_neo_1/nioneo_logical.log.2] @ version=1 to /home/pdipietro/myapp/db/ha_neo_1/nioneo_logical.log.1 from position 2384
+2013-12-07 15:15:01.738+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Rotate: old log scanned, newLog @ pos=16
+2013-12-07 15:15:01.740+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Log rotated, newLog @ pos=16, version 2 and last tx 5
+2013-12-07 15:15:05.359+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 165ms [total block time: 0.979s]
+2013-12-07 15:15:06.504+0000 INFO  [o.n.c.m.p.PaxosClusterMemberEvents]: Snapshot:[MemberIsAvailable[ Role: master, InstanceId: 1, Role URI: ha://192.168.10.81:6001?serverId=1, Cluster URI: cluster://192.168.10.81:5001], MemberIsAvailable[ Role: slave, InstanceId: 3, Role URI: ha://192.168.10.81:6003?serverId=3, Cluster URI: cluster://192.168.10.81:5003], MemberIsAvailable[ Role: slave, InstanceId: 2, Role URI: ha://192.168.10.81:6002?serverId=2, Cluster URI: cluster://192.168.10.81:5002]]
+2013-12-07 15:15:06.504+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 2 is available as slave at ha://192.168.10.81:6002?serverId=2
+2013-12-07 15:15:36.016+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 238ms [total block time: 1.217s]
+2013-12-07 15:16:31.395+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 1.325s]
+2013-12-07 15:18:30.486+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 175ms [total block time: 1.5s]
+2013-12-07 15:22:24.718+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 126ms [total block time: 1.626s]
+2013-12-07 15:22:35.441+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 509ms [total block time: 2.135s]
+2013-12-07 15:24:59.266+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 106ms [total block time: 2.241s]
+2013-12-07 15:27:18.447+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 179ms [total block time: 2.42s]
+2013-12-07 15:28:50.842+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: Shutdown started
+2013-12-07 15:28:50.843+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: Database is no longer ready
+2013-12-07 15:28:50.843+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Write transactions to database disabled
+2013-12-07 15:28:51.003+0000 INFO  [o.n.c.p.c.ClusterState]: Leaving:[cluster://192.168.10.81:5001, cluster://192.168.10.81:5002, cluster://192.168.10.81:5003]
+2013-12-07 15:28:51.019+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) is unavailable as master
+2013-12-07 15:28:51.024+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) left the cluster
+2013-12-07 15:28:51.043+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor stopped. 
+2013-12-07 15:28:51.051+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /home/pdipietro/myapp/db/ha_neo_1/index/lucene.log
+2013-12-07 15:28:51.065+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2013-12-07 15:28:51.067+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /home/pdipietro/myapp/db/ha_neo_1/nioneo_logical.log
+2013-12-07 15:28:51.068+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/myapp/db/ha_neo_1/neostore.relationshiptypestore.db.names hit=0 miss=2 switches=0 ooe=0
+2013-12-07 15:28:51.073+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/myapp/db/ha_neo_1/neostore.relationshiptypestore.db hit=0 miss=2 switches=0 ooe=0
+2013-12-07 15:28:51.081+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db.strings hit=2 miss=0 switches=0 ooe=0
+2013-12-07 15:28:51.091+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db.index.keys hit=0 miss=9 switches=0 ooe=0
+2013-12-07 15:28:51.124+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db.index hit=0 miss=9 switches=0 ooe=0
+2013-12-07 15:28:51.138+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-12-07 15:28:51.198+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db hit=11 miss=0 switches=0 ooe=0
+2013-12-07 15:28:51.212+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/myapp/db/ha_neo_1/neostore.relationshipstore.db hit=5 miss=0 switches=0 ooe=0
+2013-12-07 15:28:51.243+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/myapp/db/ha_neo_1/neostore.nodestore.db hit=11 miss=0 switches=0 ooe=0
+2013-12-07 15:28:51.258+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/myapp/db/ha_neo_1/neostore hit=0 miss=33 switches=0 ooe=0
+2013-12-07 15:28:51.271+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2013-12-07 15:28:51.271+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2013-12-07 15:28:51.271+0000 INFO  [o.n.k.i.DiagnosticsManager]: High Availability diagnostics
+Member state:PENDING
+State machines:
+   AtomicBroadcastMessage:start
+   AcceptorMessage:start
+   ProposerMessage:start
+   LearnerMessage:start
+   HeartbeatMessage:start
+   ElectionMessage:start
+   SnapshotMessage:start
+   ClusterMessage:start
+Current timeouts:
+
+2013-12-07 15:28:51.271+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
+2013-12-07 15:29:44.606+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2013-12-07 15:29:44.612+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2013-12-07 15:29:44.615+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=1623M
+2013-12-07 15:29:44.615+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=450M
+2013-12-07 15:29:44.615+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.pull_interval=500ms
+2013-12-07 15:29:44.615+0000 INFO  [o.n.k.i.DiagnosticsManager]: identity_map=true
+2013-12-07 15:29:44.615+0000 INFO  [o.n.k.i.DiagnosticsManager]: timestamps=true
+2013-12-07 15:29:44.615+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.discovery.enabled=true
+2013-12-07 15:29:44.615+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=1988M
+2013-12-07 15:29:44.615+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=1379M
+2013-12-07 15:29:44.616+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=/home/pdipietro/myapp/db/ha_neo_1
+2013-12-07 15:29:44.616+0000 INFO  [o.n.k.i.DiagnosticsManager]: online_backup_enabled=false
+2013-12-07 15:29:44.616+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=1563M
+2013-12-07 15:29:44.616+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.initial_hosts=192.168.10.81:5001,192.168.10.81:5002,192.168.10.81:5003
+2013-12-07 15:29:44.616+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.cluster_server=192.168.10.81:5001
+2013-12-07 15:29:44.616+0000 INFO  [o.n.k.i.DiagnosticsManager]: migration_thread=false
+2013-12-07 15:29:44.616+0000 INFO  [o.n.k.i.DiagnosticsManager]: enable_rules=true
+2013-12-07 15:29:44.616+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.server_id=1
+2013-12-07 15:29:44.616+0000 INFO  [o.n.k.i.DiagnosticsManager]: ha.server=192.168.10.81:6001
+2013-12-07 15:29:44.616+0000 INFO  [o.n.k.i.DiagnosticsManager]: storage_path=/home/pdipietro/myapp/db/ha_neo_1
+2013-12-07 15:29:44.616+0000 INFO  [o.n.k.i.DiagnosticsManager]: enable_ha=true
+2013-12-07 15:29:44.616+0000 INFO  [o.n.k.i.DiagnosticsManager]: ephemeral=false
+2013-12-07 15:29:44.618+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2013-12-07 15:29:44.618+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2013-12-07 15:29:44.618+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2013-12-07 15:29:44.618+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2013-12-07 15:29:44.619+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2013-12-07 15:29:44.619+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2013-12-07 15:29:44.619+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2013-12-07 15:29:44.619+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2013-12-07 15:29:44.619+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2013-12-07 15:29:44.619+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2013-12-07 15:29:44.619+0000 INFO  [o.n.k.i.DiagnosticsManager]: LINUX_SCHEDULERS
+2013-12-07 15:29:44.619+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2013-12-07 15:29:44.619+0000 INFO  [o.n.k.i.DiagnosticsManager]: NodeCache
+2013-12-07 15:29:44.619+0000 INFO  [o.n.k.i.DiagnosticsManager]: RelationshipCache
+2013-12-07 15:29:44.619+0000 INFO  [o.n.k.i.DiagnosticsManager]: HighAvailabilityDiagnostics
+2013-12-07 15:29:44.620+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2013-12-07 15:29:44.623+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 15.67 GB
+2013-12-07 15:29:44.623+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 13.42 GB
+2013-12-07 15:29:44.623+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 2.07 GB
+2013-12-07 15:29:44.623+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 16.00 GB
+2013-12-07 15:29:44.623+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 16.00 GB
+2013-12-07 15:29:44.625+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2013-12-07 15:29:44.626+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 225.61 MB
+2013-12-07 15:29:44.626+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 304.50 MB
+2013-12-07 15:29:44.626+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 444.50 MB
+2013-12-07 15:29:44.628+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2013-12-07 15:29:44.628+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2013-12-07 15:29:44.630+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=3.63 MB, used=3.42 MB, max=48.00 MB, threshold=0.00 B
+2013-12-07 15:29:44.630+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Eden Space (Heap memory): committed=113.00 MB, used=22.37 MB, max=115.50 MB, threshold=?
+2013-12-07 15:29:44.631+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Survivor Space (Heap memory): committed=24.50 MB, used=22.95 MB, max=24.50 MB, threshold=?
+2013-12-07 15:29:44.631+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Old Gen (Heap memory): committed=167.00 MB, used=33.57 MB, max=333.00 MB, threshold=0.00 B
+2013-12-07 15:29:44.632+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Perm Gen (Non-heap memory): committed=39.50 MB, used=39.01 MB, max=82.00 MB, threshold=0.00 B
+2013-12-07 15:29:44.632+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2013-12-07 15:29:44.633+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Linux; version: 3.11.0-14-generic; arch: amd64; cpus: 8
+2013-12-07 15:29:44.633+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max number of file descriptors: 4096
+2013-12-07 15:29:44.633+0000 INFO  [o.n.k.i.DiagnosticsManager]: Number of open file descriptors: 64
+2013-12-07 15:29:44.634+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 5870@ubuntu
+2013-12-07 15:29:44.634+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2013-12-07 15:29:44.634+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/Rome
+2013-12-07 15:29:44.634+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2013-12-07 15:29:44.634+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2013-12-07 15:29:44.634+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2013-12-07 15:29:44.634+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.45-b08
+2013-12-07 15:29:44.635+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2013-12-07 15:29:44.635+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Djdk.home=, -Djruby.home=/home/pdipietro/.rvm/rubies/jruby-1.7.6, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/arm-Linux:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/i386-Linux:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/x86_64-Linux, -Xmx500m, -Xss2048k, -Xbootclasspath/a:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jruby.jar]
+2013-12-07 15:29:44.635+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2013-12-07 15:29:44.637+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/json-1.8.1-java/lib/json/ext/parser.jar
+2013-12-07 15:29:44.637+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-com-1.9.5.jar
+2013-12-07 15:29:44.637+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/json-1.8.1-java/lib/json/ext/generator.jar
+2013-12-07 15:29:44.637+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/concurrentlinkedhashmap-lru-1.3.1.jar
+2013-12-07 15:29:44.637+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/zookeeper-3.3.2.jar
+2013-12-07 15:29:44.637+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/server-api-1.9.5.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/charsets.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/slf4j-api-1.6.2.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/sunrsasign.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/ruby/shared/kryptcore.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/server-api-1.9.5.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/sunec.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-lucene-index-1.9.5.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/localedata.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-cypher-1.9.5.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/therubyrhino_jar-1.7.4/jar/rhino-1.7R4.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/log4j-1.2.16.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-core-0.9.30.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-jmx-1.9.5.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/dnsns.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-advanced-1.9.5-java/lib/neo4j-advanced/jars/neo4j-management-1.9.5.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/jsse.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-graph-algo-1.9.5.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6@global/gems/bouncy-castle-java-1.5.0147/lib/bcpkix-jdk15on-147.jar
+2013-12-07 15:29:44.638+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/sunjce_provider.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-udc-1.9.5.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6@global/gems/bouncy-castle-java-1.5.0147/lib/bcprov-jdk15on-147.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/lucene-core-3.6.2.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/zipfs.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/ruby/shared/kryptproviderjdk.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/geronimo-jta_1.1_spec-1.1.1.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/netty-3.6.3.Final.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/rt.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6@global/gems/jruby-openssl-0.9.4/lib/jopenssl.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-consistency-check-1.9.5.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/jce.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-backup-1.9.5.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/resources.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-graph-matching-1.9.5.jar
+2013-12-07 15:29:44.639+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.1] file:/home/pdipietro/myapp/
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/scala-library-2.10.0.jar
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-core-2.3.0-java/lib/neo4j-core/jars/neo4jrb-adaptor.jar
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/classes
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/sunpkcs11.jar
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-access-0.9.30.jar
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-kernel-1.9.5.jar
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-classic-0.9.30.jar
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-ha-1.9.5.jar
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jruby.jar
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/jfr.jar
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-cluster-1.9.5.jar
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-udc-1.9.5.jar
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/java/packages/lib/amd64
+2013-12-07 15:29:44.640+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib64
+2013-12-07 15:29:44.641+0000 INFO  [o.n.k.i.DiagnosticsManager]: /lib64
+2013-12-07 15:29:44.641+0000 INFO  [o.n.k.i.DiagnosticsManager]: /lib
+2013-12-07 15:29:44.641+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib
+2013-12-07 15:29:44.641+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2013-12-07 15:29:44.641+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.home = /home/pdipietro/.rvm/rubies/jruby-1.7.6
+2013-12-07 15:29:44.641+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = /usr/lib/jvm/jdk1.7.0_45/jre/lib/amd64
+2013-12-07 15:29:44.641+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = :
+2013-12-07 15:29:44.641+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2013-12-07 15:29:44.641+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2013-12-07 15:29:44.641+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2013-12-07 15:29:44.641+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = unknown
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = /home/pdipietro/myapp
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.source = neo4rb
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: jdk.home = 
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = UTF-8
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: jffi.boot.library.path = /home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/arm-Linux:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/i386-Linux:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/x86_64-Linux
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = /home/pdipietro
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/Rome
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = UTF-8
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.script = jruby
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = pdipietro
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.shell = /bin/sh
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org/jruby/Main script/rails s
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2013-12-07 15:29:44.642+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.awt.X11.XToolkit
+2013-12-07 15:29:44.643+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = /
+2013-12-07 15:29:44.643+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeLittle
+2013-12-07 15:29:44.643+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2013-12-07 15:29:44.643+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.desktop = gnome
+2013-12-07 15:29:44.643+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = 
+2013-12-07 15:29:44.643+0000 INFO  [o.n.k.i.DiagnosticsManager]: Linux scheduler information:
+2013-12-07 15:29:44.645+0000 INFO  [o.n.k.i.DiagnosticsManager]: noop [deadline] cfq 
+2013-12-07 15:29:44.645+0000 INFO  [o.n.k.i.DiagnosticsManager]: noop [deadline] cfq 
+2013-12-07 15:29:44.645+0000 INFO  [o.n.k.i.DiagnosticsManager]: noop [deadline] cfq 
+2013-12-07 15:29:44.646+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.646+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.646+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.646+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.646+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.647+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.647+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.647+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.647+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.647+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.647+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.648+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.648+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.648+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.648+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.648+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.649+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.649+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.649+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.649+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.649+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.649+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.650+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.650+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-07 15:29:44.650+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2013-12-07 15:29:44.651+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface eth0:
+2013-12-07 15:29:44.652+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:20c:29ff:fe03:b624%2
+2013-12-07 15:29:44.652+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.10.81
+2013-12-07 15:29:44.652+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface lo:
+2013-12-07 15:29:44.652+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1%1
+2013-12-07 15:29:44.652+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2013-12-07 15:29:44.652+0000 INFO  [o.n.k.i.DiagnosticsManager]: High Availability diagnostics
+Member state:PENDING
+State machines:
+   AtomicBroadcastMessage:start
+   AcceptorMessage:start
+   ProposerMessage:start
+   LearnerMessage:start
+   HeartbeatMessage:start
+   ElectionMessage:start
+   SnapshotMessage:start
+   ClusterMessage:start
+Current timeouts:
+
+2013-12-07 15:29:44.653+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2013-12-07 15:29:44.955+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=114b)
+2013-12-07 15:29:44.961+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=10b)
+2013-12-07 15:29:44.962+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db.strings] brickCount=0 brickSize=1445888b mappedMem=1445986304b (storeSize=384b)
+2013-12-07 15:29:44.963+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=380b)
+2013-12-07 15:29:44.965+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=81b)
+2013-12-07 15:29:44.966+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db.arrays] brickCount=0 brickSize=1638912b mappedMem=1638924288b (storeSize=128b)
+2013-12-07 15:29:44.969+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.propertystore.db] brickCount=0 brickSize=1701828b mappedMem=1701838848b (storeSize=369b)
+2013-12-07 15:29:44.972+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.relationshipstore.db] brickCount=0 brickSize=2084544b mappedMem=2084569088b (storeSize=99b)
+2013-12-07 15:29:44.975+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore.nodestore.db] brickCount=0 brickSize=471852b mappedMem=471859200b (storeSize=36b)
+2013-12-07 15:29:44.976+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/myapp/db/ha_neo_1/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-12-07 15:29:45.015+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/home/pdipietro/myapp/db/ha_neo_1/nioneo_logical.log.1] version=3, lastTxId=5 (clean)
+2013-12-07 15:29:45.025+0000 INFO  [o.n.k.i.t.TxManager]: TM opening log: /home/pdipietro/myapp/db/ha_neo_1/tm_tx_log.1
+2013-12-07 15:29:45.087+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/home/pdipietro/myapp/db/ha_neo_1/index/lucene.log.1] version=3, lastTxId=4 (clean)
+2013-12-07 15:29:45.095+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor started. 
+2013-12-07 15:29:45.257+0000 INFO  [o.n.c.m.p.PaxosClusterMemberAvailability]: Listening at:cluster://192.168.10.81:5001
+2013-12-07 15:29:45.288+0000 INFO  [o.n.c.c.ClusterJoin]: Attempting to join cluster of [192.168.10.81:5001, 192.168.10.81:5002, 192.168.10.81:5003]
+2013-12-07 15:29:45.330+0000 INFO  [o.n.c.c.NetworkSender]: cluster://192.168.10.81:5001 opened a new channel to /192.168.10.81:5003
+2013-12-07 15:29:45.332+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0x322c53f5] had no URI associated with it.
+2013-12-07 15:29:45.338+0000 INFO  [o.n.c.c.NetworkSender]: cluster://192.168.10.81:5001 opened a new channel to /192.168.10.81:5001
+2013-12-07 15:29:45.347+0000 WARN  [o.n.c.c.NetworkSender]: Could not connect to:cluster://192.168.10.81:5002
+org.neo4j.cluster.com.ChannelOpenFailedException: Client could not connect to /192.168.10.81:5002
+	at org.neo4j.cluster.com.NetworkSender.openChannel(NetworkSender.java:373) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.com.NetworkSender.access$200(NetworkSender.java:72) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at org.neo4j.cluster.com.NetworkSender$2.run(NetworkSender.java:248) ~[neo4j-cluster-1.9.5.jar:1.9.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_45]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_45]
+	at java.lang.Thread.run(Thread.java:744) [na:1.7.0_45]
+2013-12-07 15:29:45.381+0000 INFO  [o.n.c.m.p.PaxosClusterMemberAvailability]: Listening at:cluster://192.168.10.81:5001
+2013-12-07 15:29:46.289+0000 ERROR [o.n.c.c.NetworkSender]: Channel [id: 0xb4182427] had no URI associated with it.
+2013-12-07 15:29:47.279+0000 INFO  [o.n.c.c.ClusterJoin]: Could not join cluster of [192.168.10.81:5001, 192.168.10.81:5002, 192.168.10.81:5003]
+2013-12-07 15:29:47.280+0000 INFO  [o.n.c.c.ClusterJoin]: Creating new cluster with name [neo4j.ha]...
+2013-12-07 15:29:47.280+0000 INFO  [o.n.c.p.c.ClusterState]: Creating cluster: neo4j.ha
+2013-12-07 15:29:47.293+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) joined the cluster
+2013-12-07 15:29:47.309+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: I am 1, moving to master
+2013-12-07 15:29:47.358+0000 INFO  [o.n.k.h.c.m.MasterServer]: MasterServer communication server started and bound to /192.168.10.81:6001
+2013-12-07 15:29:47.368+0000 INFO  [o.n.k.h.c.HighAvailabilityModeSwitcher]: I am 1, successfully moved to master
+2013-12-07 15:29:47.368+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) was elected as coordinator
+2013-12-07 15:29:47.370+0000 INFO  [o.n.c.p.e.ElectionContext]: Doing elections for role coordinator
+2013-12-07 15:29:47.409+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) was elected as coordinator
+2013-12-07 15:29:47.417+0000 INFO  [o.n.c.m.p.PaxosClusterMemberEvents]: Snapshot:[MemberIsAvailable[ Role: master, InstanceId: 1, Role URI: ha://192.168.10.81:6001?serverId=1, Cluster URI: cluster://192.168.10.81:5001]]
+2013-12-07 15:29:47.418+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) is available as master at ha://192.168.10.81:6001?serverId=1
+2013-12-07 15:29:47.424+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2013-12-07 15:29:47.424+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.ha.HighlyAvailableGraphDatabase StoreId[time:1386428545161, id:6196898570795847471, store version: 13561656364791302]
+2013-12-07 15:29:47.424+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel 1.9.5
+2013-12-07 15:29:47.424+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2013-12-07 15:29:47.427+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel 1.9.5
+2013-12-07 15:29:47.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2013-12-07 15:29:47.430+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2013-12-07 15:29:47.431+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2013-12-07 15:29:47.431+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2013-12-07 15:29:47.431+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.0
+2013-12-07 15:29:47.431+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.0
+2013-12-07 15:29:47.431+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.0
+2013-12-07 15:29:47.431+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.0
+2013-12-07 15:29:47.431+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.0
+2013-12-07 15:29:47.431+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.0
+2013-12-07 15:29:47.431+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.0
+2013-12-07 15:29:47.431+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.0
+2013-12-07 15:29:47.431+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2013-12-07 15:29:47.432+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2013-12-07 15:29:47.432+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2013-12-07 15:29:47.432+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2013-12-07 15:29:47.432+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=4 high=3
+2013-12-07 15:29:47.432+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=3 high=2
+2013-12-07 15:29:47.432+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=2 high=1
+2013-12-07 15:29:47.432+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=9 high=8
+2013-12-07 15:29:47.433+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=9 high=8
+2013-12-07 15:29:47.433+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=3 high=2
+2013-12-07 15:29:47.433+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2013-12-07 15:29:47.433+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2013-12-07 15:29:47.433+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-12-07 15:29:47.433+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-12-07 15:29:47.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-12-07 15:29:47.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 25230176256 / 18458738688 / 73
+Storage files: (filename : modification date - size)
+2013-12-07 15:29:47.436+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v0: 2013-12-07T16:02:29+0100 - 16.00 B
+2013-12-07 15:29:47.436+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2013-12-07T16:29:44+0100 - 9.00 B
+2013-12-07 15:29:47.436+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2013-12-07T16:29:44+0100 - 81.00 B
+2013-12-07 15:29:47.437+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2013-12-07T16:29:44+0100 - 380.00 B
+2013-12-07 15:29:47.437+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2013-12-07T16:29:45+0100 - 0.00 B
+2013-12-07 15:29:47.437+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2013-12-07T16:29:44+0100 - 0.00 B
+2013-12-07 15:29:47.438+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2013-12-07T16:29:44+0100 - 9.00 B
+2013-12-07 15:29:47.438+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2013-12-07T16:29:44+0100 - 9.00 B
+2013-12-07 15:29:47.438+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.1: 2013-12-07T16:29:45+0100 - 16.00 B
+2013-12-07 15:29:47.439+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2013-12-07T16:29:44+0100 - 114.00 B
+2013-12-07 15:29:47.439+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2013-12-07T16:29:44+0100 - 369.00 B
+2013-12-07 15:29:47.439+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index.db: 2013-12-07T16:02:51+0100 - 113.00 B
+2013-12-07 15:29:47.440+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2013-12-07T16:29:45+0100 - 4.00 B
+2013-12-07 15:29:47.440+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2013-12-07T16:29:44+0100 - 9.00 B
+2013-12-07 15:29:47.441+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2013-12-07T16:29:44+0100 - 54.00 B
+2013-12-07 15:29:47.441+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2013-12-07T16:02:25+0100 - 11.00 B
+2013-12-07 15:29:47.442+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2013-12-07T16:29:44+0100 - 384.00 B
+2013-12-07 15:29:47.442+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v2: 2013-12-07T16:28:51+0100 - 16.00 B
+2013-12-07 15:29:47.442+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2013-12-07T16:29:44+0100 - 128.00 B
+2013-12-07 15:29:47.442+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2013-12-07T16:02:25+0100 - 0.00 B
+2013-12-07 15:29:47.443+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2013-12-07T16:29:44+0100 - 10.00 B
+2013-12-07 15:29:47.443+0000 INFO  [o.n.k.i.DiagnosticsManager]:   branched:
+2013-12-07 15:29:47.444+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2013-12-07T16:02:25+0100 - 0.00 B
+2013-12-07 15:29:47.444+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2013-12-07T16:29:44+0100 - 9.00 B
+2013-12-07 15:29:47.445+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2013-12-07T16:29:44+0100 - 9.00 B
+2013-12-07 15:29:47.445+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2013-12-07T16:29:44+0100 - 99.00 B
+2013-12-07 15:29:47.445+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2013-12-07T16:29:47+0100 - 84.73 kB
+2013-12-07 15:29:47.446+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v1: 2013-12-07T16:15:01+0100 - 2.33 kB
+2013-12-07 15:29:47.446+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2013-12-07T16:29:44+0100 - 9.00 B
+2013-12-07 15:29:47.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2013-12-07T16:29:44+0100 - 9.00 B
+2013-12-07 15:29:47.447+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2013-12-07T16:29:44+0100 - 9.00 B
+2013-12-07 15:29:47.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2013-12-07T16:29:44+0100 - 36.00 B
+2013-12-07 15:29:47.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2013-12-07T16:29:44+0100 - 9.00 B
+2013-12-07 15:29:47.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2013-12-07 15:29:47.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.v2: 2013-12-07T16:28:51+0100 - 16.00 B
+2013-12-07 15:29:47.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.v0: 2013-12-07T16:02:29+0100 - 16.00 B
+2013-12-07 15:29:47.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene:
+2013-12-07 15:29:47.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:       node:
+2013-12-07 15:29:47.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:         User_exact:
+2013-12-07 15:29:47.451+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.fdt: 2013-12-07T16:15:01+0100 - 41.00 B
+2013-12-07 15:29:47.451+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.fdx: 2013-12-07T16:03:22+0100 - 12.00 B
+2013-12-07 15:29:47.451+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_1: 2013-12-07T16:15:01+0100 - 468.00 B
+2013-12-07 15:29:47.452+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.frq: 2013-12-07T16:03:22+0100 - 3.00 B
+2013-12-07 15:29:47.452+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.tis: 2013-12-07T16:15:01+0100 - 62.00 B
+2013-12-07 15:29:47.452+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.frq: 2013-12-07T16:15:01+0100 - 3.00 B
+2013-12-07 15:29:47.453+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.fdx: 2013-12-07T16:15:01+0100 - 12.00 B
+2013-12-07 15:29:47.453+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.fnm: 2013-12-07T16:15:01+0100 - 30.00 B
+2013-12-07 15:29:47.453+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.nrm: 2013-12-07T16:03:22+0100 - 5.00 B
+2013-12-07 15:29:47.454+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2013-12-07T16:15:01+0100 - 20.00 B
+2013-12-07 15:29:47.454+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.fdt: 2013-12-07T16:03:22+0100 - 45.00 B
+2013-12-07 15:29:47.454+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.fnm: 2013-12-07T16:03:22+0100 - 30.00 B
+2013-12-07 15:29:47.455+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.tii: 2013-12-07T16:15:01+0100 - 35.00 B
+2013-12-07 15:29:47.455+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.tis: 2013-12-07T16:03:22+0100 - 64.00 B
+2013-12-07 15:29:47.455+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.tii: 2013-12-07T16:03:22+0100 - 35.00 B
+2013-12-07 15:29:47.456+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.nrm: 2013-12-07T16:15:01+0100 - 5.00 B
+2013-12-07 15:29:47.456+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.prx: 2013-12-07T16:15:01+0100 - 3.00 B
+2013-12-07 15:29:47.456+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _0.prx: 2013-12-07T16:03:22+0100 - 3.00 B
+2013-12-07 15:29:47.457+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2013-12-07T16:28:51+0100 - 876.00 B
+2013-12-07 15:29:47.457+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2013-12-07T16:02:51+0100 - 876.00 B
+2013-12-07 15:29:47.457+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2013-12-07T16:02:51+0100 - 876.00 B
+2013-12-07 15:29:47.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2013-12-07T16:28:51+0100 - 40.00 B
+2013-12-07 15:29:47.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.1: 2013-12-07T16:29:45+0100 - 16.00 B
+2013-12-07 15:29:47.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2013-12-07T16:29:45+0100 - 4.00 B
+2013-12-07 15:29:47.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.v1: 2013-12-07T16:15:01+0100 - 751.00 B
+2013-12-07 15:29:47.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2013-12-07T16:29:45+0100 - 1.68 kB
+2013-12-07 15:29:47.459+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-12-07 15:29:47.460+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: Database is now ready
+2013-12-07 15:29:47.460+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Database available for write transactions
+2013-12-07 15:29:48.244+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 joined the cluster
+2013-12-07 15:29:48.274+0000 INFO  [o.n.c.p.e.ElectionContext]: Doing elections for role coordinator
+2013-12-07 15:29:48.340+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) was elected as coordinator
+2013-12-07 15:29:48.781+0000 INFO  [o.n.c.m.p.PaxosClusterMemberEvents]: Snapshot:[MemberIsAvailable[ Role: master, InstanceId: 1, Role URI: ha://192.168.10.81:6001?serverId=1, Cluster URI: cluster://192.168.10.81:5001], MemberIsAvailable[ Role: slave, InstanceId: 3, Role URI: ha://192.168.10.81:6003?serverId=3, Cluster URI: cluster://192.168.10.81:5003]]
+2013-12-07 15:29:48.781+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 3 is available as slave at ha://192.168.10.81:6003?serverId=3
+2013-12-07 15:36:28.565+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 140ms [total block time: 0.14s]
+2013-12-07 16:09:53.757+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 1200ms [total block time: 1.34s]
+2013-12-07 16:11:01.802+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 103ms [total block time: 1.443s]
+2013-12-07 16:16:33.175+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 525ms [total block time: 1.968s]
+2013-12-07 16:32:22.734+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 131ms [total block time: 2.099s]
+2013-12-07 16:41:23.448+0000 INFO  [o.n.c.c.NetworkSender]: cluster://192.168.10.81:5001 opened a new channel to /192.168.10.81:5002
+2013-12-07 16:41:23.472+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 2 joined the cluster
+2013-12-07 16:41:23.509+0000 INFO  [o.n.c.p.e.ElectionContext]: Doing elections for role coordinator
+2013-12-07 16:41:23.531+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) was elected as coordinator
+2013-12-07 16:41:23.800+0000 INFO  [o.n.c.m.p.PaxosClusterMemberEvents]: Snapshot:[MemberIsAvailable[ Role: master, InstanceId: 1, Role URI: ha://192.168.10.81:6001?serverId=1, Cluster URI: cluster://192.168.10.81:5001], MemberIsAvailable[ Role: slave, InstanceId: 3, Role URI: ha://192.168.10.81:6003?serverId=3, Cluster URI: cluster://192.168.10.81:5003], MemberIsAvailable[ Role: slave, InstanceId: 2, Role URI: ha://192.168.10.81:6002?serverId=2, Cluster URI: cluster://192.168.10.81:5002]]
+2013-12-07 16:41:23.800+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 2 is available as slave at ha://192.168.10.81:6002?serverId=2
+2013-12-07 17:05:41.372+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 110ms [total block time: 2.209s]
+2013-12-07 17:11:32.702+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 178ms [total block time: 2.387s]
+2013-12-07 17:15:18.834+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 201ms [total block time: 2.588s]
+2013-12-07 17:35:48.844+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 124ms [total block time: 2.712s]
+2013-12-07 17:38:57.339+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 200ms [total block time: 2.912s]
+2013-12-07 17:44:35.536+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 113ms [total block time: 3.025s]
+2013-12-07 17:51:47.085+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 128ms [total block time: 3.153s]
+2013-12-07 18:03:04.282+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 126ms [total block time: 3.279s]
+2013-12-07 18:14:58.827+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 103ms [total block time: 3.382s]
+2013-12-07 18:27:24.456+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 1118ms [total block time: 4.5s]
+2013-12-07 18:38:34.845+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 102ms [total block time: 4.602s]
+2013-12-07 18:43:06.865+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 114ms [total block time: 4.716s]
+2013-12-07 18:47:27.112+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 105ms [total block time: 4.821s]
+2013-12-07 18:50:26.113+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 180ms [total block time: 5.001s]
+2013-12-07 18:58:14.106+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 559ms [total block time: 5.56s]
+2013-12-07 18:59:03.389+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 152ms [total block time: 5.712s]
+2013-12-07 19:03:02.878+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 135ms [total block time: 5.847s]
+2013-12-07 19:05:11.577+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 125ms [total block time: 5.972s]
+2013-12-07 19:08:34.467+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 163ms [total block time: 6.135s]
+2013-12-07 19:09:45.086+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 122ms [total block time: 6.257s]
+2013-12-07 19:13:14.345+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 113ms [total block time: 6.37s]
+2013-12-07 19:15:20.540+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 115ms [total block time: 6.485s]
+2013-12-07 19:16:57.325+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 1138ms [total block time: 7.623s]
+2013-12-07 19:19:57.276+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 105ms [total block time: 7.728s]
+2013-12-07 19:23:12.821+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 134ms [total block time: 7.862s]
+2013-12-07 19:23:59.537+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 128ms [total block time: 7.99s]
+2013-12-07 19:26:34.153+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 102ms [total block time: 8.092s]
+2013-12-07 20:04:02.076+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 106ms [total block time: 8.198s]
+2013-12-07 20:27:15.923+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 8.306s]
+2013-12-07 20:54:27.305+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 189ms [total block time: 8.495s]
+2013-12-07 20:56:30.792+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 175ms [total block time: 8.67s]
+2013-12-07 20:57:17.727+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 138ms [total block time: 8.808s]
+2013-12-07 21:03:51.058+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 101ms [total block time: 8.909s]
+2013-12-07 21:04:52.883+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 118ms [total block time: 9.027s]
+2013-12-07 21:07:01.131+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 110ms [total block time: 9.137s]
+2013-12-07 21:16:08.888+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 206ms [total block time: 9.343s]
+2013-12-07 21:30:44.194+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 102ms [total block time: 9.445s]
+2013-12-07 22:01:15.419+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 173ms [total block time: 9.618s]
+2013-12-07 22:10:06.871+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 118ms [total block time: 9.736s]
+2013-12-07 22:15:25.465+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 103ms [total block time: 9.839s]
+2013-12-07 22:28:12.140+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 114ms [total block time: 9.953s]
+2013-12-07 22:34:28.189+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 110ms [total block time: 10.063s]
+2013-12-07 22:59:45.324+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 162ms [total block time: 10.225s]
+2013-12-07 23:01:15.013+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 104ms [total block time: 10.329s]
+2013-12-07 23:04:38.294+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 114ms [total block time: 10.443s]
+2013-12-07 23:19:35.494+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 114ms [total block time: 10.557s]
+2013-12-07 23:24:48.046+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 10.665s]
+2013-12-08 00:26:54.262+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 118ms [total block time: 10.783s]
+2013-12-08 00:57:40.083+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 124ms [total block time: 10.907s]
+2013-12-08 01:01:00.789+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 119ms [total block time: 11.026s]
+2013-12-08 02:18:40.491+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 128ms [total block time: 11.154s]
+2013-12-08 02:27:01.787+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 109ms [total block time: 11.263s]
+2013-12-08 02:44:43.273+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 164ms [total block time: 11.427s]
+2013-12-08 02:58:06.423+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 139ms [total block time: 11.566s]
+2013-12-08 02:58:30.663+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 116ms [total block time: 11.682s]
+2013-12-08 03:38:47.264+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 114ms [total block time: 11.796s]
+2013-12-08 03:38:55.978+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 131ms [total block time: 11.927s]
+2013-12-08 03:39:21.560+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 143ms [total block time: 12.07s]
+2013-12-08 03:53:01.382+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 172ms [total block time: 12.242s]
+2013-12-08 03:54:45.445+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 167ms [total block time: 12.409s]
+2013-12-08 03:57:15.445+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 204ms [total block time: 12.613s]
+2013-12-08 04:21:13.734+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 182ms [total block time: 12.795s]
+2013-12-08 04:28:49.698+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 149ms [total block time: 12.944s]
+2013-12-08 04:30:10.983+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 113ms [total block time: 13.057s]
+2013-12-08 05:12:33.730+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 144ms [total block time: 13.201s]
+2013-12-08 05:51:50.686+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 113ms [total block time: 13.314s]
+2013-12-08 06:10:05.385+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 123ms [total block time: 13.437s]
+2013-12-08 06:13:47.269+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 105ms [total block time: 13.542s]
+2013-12-08 06:17:55.883+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 129ms [total block time: 13.671s]
+2013-12-08 06:24:40.609+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 104ms [total block time: 13.775s]
+2013-12-08 06:37:19.397+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 122ms [total block time: 13.897s]
+2013-12-08 06:38:09.362+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 221ms [total block time: 14.118s]
+2013-12-08 06:39:09.090+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 171ms [total block time: 14.289s]
+2013-12-08 06:48:06.865+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 120ms [total block time: 14.409s]
+2013-12-08 06:50:21.873+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 126ms [total block time: 14.535s]
+2013-12-08 06:55:30.948+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 147ms [total block time: 14.682s]
+2013-12-08 06:55:32.783+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 104ms [total block time: 14.786s]
+2013-12-08 07:21:43.295+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 151ms [total block time: 14.937s]
+2013-12-08 07:24:34.877+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 138ms [total block time: 15.075s]
+2013-12-08 07:26:44.131+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 151ms [total block time: 15.226s]
+2013-12-08 07:32:08.797+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 170ms [total block time: 15.396s]
+2013-12-08 07:59:05.202+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 15.504s]
+2013-12-08 07:59:09.069+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 188ms [total block time: 15.692s]
+2013-12-08 08:10:56.539+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 106ms [total block time: 15.798s]
+2013-12-08 08:15:03.064+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 175ms [total block time: 15.973s]
+2013-12-08 08:29:12.383+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 146ms [total block time: 16.119s]
+2013-12-08 08:41:37.936+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 113ms [total block time: 16.232s]
+2013-12-08 08:43:34.883+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 173ms [total block time: 16.405s]
+2013-12-08 08:47:35.261+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 104ms [total block time: 16.509s]
+2013-12-08 08:55:53.763+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 518ms [total block time: 17.027s]
+2013-12-08 08:58:27.099+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 131ms [total block time: 17.158s]
+2013-12-08 09:11:51.144+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 153ms [total block time: 17.311s]
+2013-12-08 09:18:21.277+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 131ms [total block time: 17.442s]
+2013-12-08 09:20:19.220+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 17.55s]
+2013-12-08 09:24:50.855+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 123ms [total block time: 17.673s]
+2013-12-08 09:35:02.826+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 172ms [total block time: 17.845s]
+2013-12-08 09:36:45.419+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 150ms [total block time: 17.995s]
+2013-12-08 09:40:07.134+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 146ms [total block time: 18.141s]
+2013-12-08 09:51:41.480+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 148ms [total block time: 18.289s]
+2013-12-08 10:02:14.334+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 180ms [total block time: 18.469s]
+2013-12-08 10:07:55.567+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 124ms [total block time: 18.593s]
+2013-12-08 10:17:36.702+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 18.701s]
+2013-12-08 10:21:58.561+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 216ms [total block time: 18.917s]
+2013-12-08 10:22:18.267+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 19.025s]
+2013-12-08 10:23:12.464+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 122ms [total block time: 19.147s]
+2013-12-08 10:23:56.441+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 142ms [total block time: 19.289s]
+2013-12-08 10:24:14.181+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 128ms [total block time: 19.417s]
+2013-12-08 10:29:17.867+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 113ms [total block time: 19.53s]
+2013-12-08 10:29:43.298+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 117ms [total block time: 19.647s]
+2013-12-08 10:30:03.541+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 105ms [total block time: 19.752s]
+2013-12-08 10:31:16.667+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 145ms [total block time: 19.897s]
+2013-12-08 10:35:19.715+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 192ms [total block time: 20.089s]
+2013-12-08 10:37:23.779+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 181ms [total block time: 20.27s]
+2013-12-08 10:41:20.797+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 107ms [total block time: 20.377s]
+2013-12-08 10:42:19.664+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 20.485s]
+2013-12-08 10:51:00.084+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 132ms [total block time: 20.617s]
+2013-12-08 10:52:50.827+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 20.725s]
+2013-12-08 11:06:41.329+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 141ms [total block time: 20.866s]
+2013-12-08 11:08:34.590+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 134ms [total block time: 21.0s]
+2013-12-08 11:13:41.217+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 21.108s]
+2013-12-08 11:15:25.808+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 115ms [total block time: 21.223s]
+2013-12-08 11:15:52.435+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 128ms [total block time: 21.351s]
+2013-12-08 11:17:06.880+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 124ms [total block time: 21.475s]
+2013-12-08 11:23:42.186+0000 INFO  [o.n.k.h.c.m.SlaveClient]: SlaveClient communication channel created towards 192.168.10.81:6002
+2013-12-08 11:23:42.204+0000 INFO  [o.n.k.h.c.m.SlaveClient]: SlaveClient communication channel created towards 192.168.10.81:6003
+2013-12-08 11:23:42.233+0000 INFO  [o.n.k.h.c.m.SlaveClient]: Opened a new channel to /192.168.10.81:6003
+2013-12-08 11:26:31.217+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 123ms [total block time: 21.598s]
+2013-12-08 11:28:10.906+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 102ms [total block time: 21.7s]
+2013-12-08 11:34:48.717+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 111ms [total block time: 21.811s]
+2013-12-08 11:41:01.392+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 165ms [total block time: 21.976s]
+2013-12-08 11:45:27.355+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 117ms [total block time: 22.093s]
+2013-12-08 11:48:44.492+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 123ms [total block time: 22.216s]
+2013-12-08 11:49:52.176+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 175ms [total block time: 22.391s]
+2013-12-08 11:50:05.358+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 128ms [total block time: 22.519s]
+2013-12-08 11:51:19.293+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 101ms [total block time: 22.62s]
+2013-12-08 11:51:28.895+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 130ms [total block time: 22.75s]
+2013-12-08 11:58:40.827+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 107ms [total block time: 22.857s]
+2013-12-08 12:01:41.056+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 104ms [total block time: 22.961s]
+2013-12-08 12:06:36.547+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 157ms [total block time: 23.118s]
+2013-12-08 12:06:39.806+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 207ms [total block time: 23.325s]
+2013-12-08 12:07:04.057+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 104ms [total block time: 23.429s]
+2013-12-08 12:07:40.118+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 114ms [total block time: 23.543s]
+2013-12-08 12:08:30.033+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 152ms [total block time: 23.695s]
+2013-12-08 12:13:47.868+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 123ms [total block time: 23.818s]
+2013-12-08 12:18:15.314+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 190ms [total block time: 24.008s]
+2013-12-08 12:23:37.976+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 125ms [total block time: 24.133s]
+2013-12-08 12:24:47.322+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 173ms [total block time: 24.306s]
+2013-12-08 12:28:30.000+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 137ms [total block time: 24.443s]
+2013-12-08 12:34:59.690+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 224ms [total block time: 24.667s]
+2013-12-08 12:39:37.397+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 143ms [total block time: 24.81s]
+2013-12-08 12:48:04.302+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 181ms [total block time: 24.991s]
+2013-12-08 12:49:04.887+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 103ms [total block time: 25.094s]
+2013-12-08 12:49:17.984+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 119ms [total block time: 25.213s]
+2013-12-08 12:55:56.630+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 132ms [total block time: 25.345s]
+2013-12-08 13:02:43.277+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 116ms [total block time: 25.461s]
+2013-12-08 13:04:24.375+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 115ms [total block time: 25.576s]
+2013-12-08 13:05:39.406+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 121ms [total block time: 25.697s]
+2013-12-08 13:06:54.649+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 111ms [total block time: 25.808s]
+2013-12-08 13:08:20.070+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 140ms [total block time: 25.948s]
+2013-12-08 13:15:16.230+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 132ms [total block time: 26.08s]
+2013-12-08 13:16:16.122+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 121ms [total block time: 26.201s]
+2013-12-08 13:17:44.542+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 151ms [total block time: 26.352s]
+2013-12-08 13:20:34.968+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 126ms [total block time: 26.478s]
+2013-12-08 13:22:10.522+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 106ms [total block time: 26.584s]
+2013-12-08 13:25:31.052+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 113ms [total block time: 26.697s]
+2013-12-08 13:45:11.243+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 131ms [total block time: 26.828s]
+2013-12-08 13:46:23.781+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 134ms [total block time: 26.962s]
+2013-12-08 13:49:26.775+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 128ms [total block time: 27.09s]
+2013-12-08 13:52:04.279+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 168ms [total block time: 27.258s]
+2013-12-08 13:53:16.756+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 131ms [total block time: 27.389s]
+2013-12-08 13:59:22.875+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 111ms [total block time: 27.5s]
+2013-12-08 14:05:42.489+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 128ms [total block time: 27.628s]
+2013-12-08 14:19:20.158+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 185ms [total block time: 27.813s]
+2013-12-08 14:20:17.352+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 144ms [total block time: 27.957s]
+2013-12-08 14:32:36.482+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 104ms [total block time: 28.061s]
+2013-12-08 14:33:05.406+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 101ms [total block time: 28.162s]
+2013-12-08 14:33:28.158+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 256ms [total block time: 28.418s]
+2013-12-08 14:34:19.466+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 141ms [total block time: 28.559s]
+2013-12-08 14:34:20.197+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 122ms [total block time: 28.681s]
+2013-12-08 14:35:06.169+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 103ms [total block time: 28.784s]
+2013-12-08 14:41:51.395+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 165ms [total block time: 28.949s]
+2013-12-08 14:42:06.723+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 113ms [total block time: 29.062s]
+2013-12-08 14:43:40.809+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 154ms [total block time: 29.216s]
+2013-12-08 14:48:03.781+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 101ms [total block time: 29.317s]
+2013-12-08 14:48:45.282+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 101ms [total block time: 29.418s]
+2013-12-08 14:51:09.777+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 123ms [total block time: 29.541s]
+2013-12-08 14:51:10.411+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 127ms [total block time: 29.668s]
+2013-12-08 14:53:42.767+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 118ms [total block time: 29.786s]
+2013-12-08 14:56:58.786+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 114ms [total block time: 29.9s]
+2013-12-08 15:04:00.129+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 127ms [total block time: 30.027s]
+2013-12-08 15:04:15.375+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 133ms [total block time: 30.16s]
+2013-12-08 15:06:44.330+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 112ms [total block time: 30.272s]
+2013-12-08 15:08:57.318+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 148ms [total block time: 30.42s]
+2013-12-08 15:15:21.460+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 155ms [total block time: 30.575s]
+2013-12-08 15:26:01.965+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 118ms [total block time: 30.693s]
+2013-12-08 15:26:42.858+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 160ms [total block time: 30.853s]
+2013-12-08 15:29:12.185+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 149ms [total block time: 31.002s]
+2013-12-08 15:44:13.571+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 31.11s]
+2013-12-08 15:53:36.946+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 101ms [total block time: 31.211s]
+2013-12-08 15:55:03.128+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 213ms [total block time: 31.424s]
+2013-12-08 15:55:34.877+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 114ms [total block time: 31.538s]
+2013-12-08 15:57:16.026+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 109ms [total block time: 31.647s]
+2013-12-08 15:59:40.300+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 510ms [total block time: 32.157s]
+2013-12-08 16:00:12.115+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor: Application threads blocked for an additional 130ms [total block time: 32.287s]
